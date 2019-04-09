@@ -1,11 +1,10 @@
 <template>
-<!-- created by roshan -->
+  <!-- created by roshan -->
   <div>
-      <navbar>
-      </navbar>
-      <b-container>
-    <Madrid> </Madrid>
-    <MainMadrid> </MainMadrid>
+    <navbar> </navbar>
+    <b-container>
+      <Madrid> </Madrid>
+      <MainMadrid> </MainMadrid>
     </b-container>
   </div>
 </template>

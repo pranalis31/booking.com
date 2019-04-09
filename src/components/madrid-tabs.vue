@@ -24,7 +24,11 @@
         <li class="nav-item tab-items">
           <a class="nav-link tab-links" href="#"
             >Stars
-            <span><font-awesome-icon :icon="['fas', 'sort-down']"  class="arrow-down" /></span>
+            <span
+              ><font-awesome-icon
+                :icon="['fas', 'sort-down']"
+                class="arrow-down"
+            /></span>
           </a>
         </li>
         <li class="nav-item tab-items">
@@ -68,15 +72,14 @@
     .tab-links {
       text-decoration: none;
       border-radius: 0px !important;
-      padding: 4px 16px !important;
+      padding: 4px 19px !important;
     }
     .fonte {
       color: black;
     }
-    .arrow-down{
-        margin-bottom: 2px;
-        color: orange;
-
+    .arrow-down {
+      margin-bottom: 2px;
+      color: orange;
     }
   }
 }
