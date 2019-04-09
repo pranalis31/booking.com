@@ -16,6 +16,7 @@ import {
   faTh,
   faDumbbell,
   faRupeeSign,
+  faCheckCircle
  
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
@@ -28,7 +29,7 @@ import {
 
 import { faCommentAlt } from "@fortawesome/free-regular-svg-icons";
 
-library.add(faCaretDown, faTh, faDumbbell,faRupeeSign); //fas
+library.add(faCaretDown, faTh, faDumbbell,faRupeeSign,faCheckCircle); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
 
