@@ -16,9 +16,11 @@ import {
   faTh,
   faDumbbell,
   faRupeeSign,
+  faCheckCircle,
   faCar,
   faEllipsisH,
   faSortDown
+
  
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
@@ -31,7 +33,12 @@ import {
 
 import { faCommentAlt } from "@fortawesome/free-regular-svg-icons";
 
+
 library.add(faCaretDown, faTh, faDumbbell,faRupeeSign, faCar,faEllipsisH,  faSortDown); //fas
+
+library.add(faCaretDown, faTh, faDumbbell,faRupeeSign,faCheckCircle); //fas
+library.add(faCaretDown, faTh, faDumbbell,faRupeeSign, faCar); //fas
+
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
 

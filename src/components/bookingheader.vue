@@ -76,7 +76,7 @@ export default {
    height: 110px;
 }
 .img-size {
-  height: 27px;
+  height: 25px;
 }
 .btn:hover {
   color: #212529;
