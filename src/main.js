@@ -14,18 +14,21 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import {
   faCaretDown,
   faTh,
-  faDumbbell
+  faDumbbell,
+  faRupeeSign,
+ 
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
   faLinkedinIn,
   faFacebookSquare,
   faTwitter
+
 } from "@fortawesome/free-brands-svg-icons"; //fab
 
 import { faCommentAlt } from "@fortawesome/free-regular-svg-icons";
 
-library.add(faCaretDown, faTh, faDumbbell); //fas
+library.add(faCaretDown, faTh, faDumbbell,faRupeeSign); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
 
