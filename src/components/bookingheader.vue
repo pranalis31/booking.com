@@ -1,6 +1,4 @@
 <template>
-  <div class="head-top"></div>
-
   <div class="head-top">
     <b-container>
       <b-row>
@@ -74,12 +72,8 @@ export default {
 <style lang="scss">
 @import "../assets/scss/booking/booking.scss";
 .head-top {
-  headbackground-color: $headtop;
-
-  width: 100%;
-  height: 80px;
-
-  height: 110px;
+   background-color: $headtop;
+   height: 110px;
 }
 .img-size {
   height: 27px;
