@@ -22,7 +22,7 @@ import {
 import {
   faLinkedinIn,
   faFacebookSquare,
-  faTwitter,
+  faTwitter
 
 } from "@fortawesome/free-brands-svg-icons"; //fab
 
@@ -30,7 +30,7 @@ import { faCommentAlt } from "@fortawesome/free-regular-svg-icons";
 
 library.add(faCaretDown, faTh, faDumbbell,faRupeeSign); //fas
 
-library.add(faLinkedinIn, faFacebookSquare); //fab
+library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
 
 library.add(faCommentAlt); //far
 
