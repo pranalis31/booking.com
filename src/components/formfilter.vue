@@ -90,7 +90,7 @@
               ></b-form-radio-group>
                </b-form-group> 
                <div class="text-right">
-                 <b-button  class="bt-bg text-light">Search</b-button> 
+                 <button  class="bt-bg text-light px-3 py-2 font-weight-bold">Search</button> 
                </div>
           </form>
 
