@@ -1,5 +1,5 @@
 <template>
-    <b-container>
+    
         <b-row>
             <div class="reserve pb-4 mb-2">
                 <button  class="btn-reserve">Reserve</button>
@@ -10,7 +10,7 @@
             </div>
            
         </b-row>
-    </b-container>
+    
        
 </template>
 

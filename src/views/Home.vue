@@ -6,13 +6,15 @@
     <breadcrumb></breadcrumb>
     <b-container>
     <b-row>
-      <b-col md="4">
+      <b-col md="3">
           <sidepartreserve></sidepartreserve>
           <formfilter></formfilter>
           <leftpart></leftpart>
+          <testimonial></testimonial>
       </b-col>
-       <b-col md="8">
+       <b-col md="9">
          <righttab></righttab>
+         <rightheading></rightheading>
       </b-col>
     </b-row>
     </b-container>
@@ -28,6 +30,8 @@ import sidepartreserve from "@/components/sidepartreserve.vue";
 import formfilter from "@/components/formfilter.vue";
 import righttab from "@/components/righttab.vue";
 import leftpart from "@/components/leftpart.vue";
+import testimonial from "@/components/testimonial.vue";
+import rightheading from "@/components/rightheading.vue";
 
 export default {
   name: "home",
@@ -37,7 +41,9 @@ export default {
     sidepartreserve,
     formfilter,
     righttab,
-    leftpart
+    leftpart,
+    testimonial,
+    rightheading
   }
 };
 </script>
