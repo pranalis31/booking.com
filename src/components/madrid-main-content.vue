@@ -2,8 +2,10 @@
   <!-- created by roshan -->
   <div>
     <b-row>
-      <b-col md="4"> </b-col>
-      <b-col md="8"> 
+      <b-col md="3"> 
+        <Formfilter> </Formfilter>
+      </b-col>
+      <b-col md="9"> 
           <!-- using component -->
             <MadridTab> </MadridTab>
             <BookingCard></BookingCard>
@@ -15,11 +17,13 @@
 <script>
 import MadridTab from "@/components/madrid-tabs.vue";
 import BookingCard from "@/components/booking-cards.vue";
+import Formfilter from "@/components/formfilter.vue";
 
 export default {
   components: {
     MadridTab,
-    BookingCard
+    BookingCard,
+    Formfilter 
   }
 };
 </script>
