@@ -8,7 +8,7 @@
     <b-row>
       <b-col md="3">
           <sidepartreserve></sidepartreserve>
-          <formfilter></formfilter>
+          <formfilter class="mt-4"></formfilter>
           <leftpart></leftpart>
           <testimonial></testimonial>
       </b-col>
@@ -21,7 +21,7 @@
          <b-col md="7">
            <bookingtext></bookingtext>
            <bookingline></bookingline>
-           <bookinngpara></bookinngpara>
+           <bookingpara></bookingpara>
          </b-col>
          <b-col md="5">
          </b-col>
@@ -48,6 +48,7 @@ import imggallery from "@/components/imggallery.vue";
 import bookingtext from "@/components/bookingtext.vue";
 import bookingline from "@/components/bookingline.vue";
 import bookingpara from "@/components/bookingpara.vue";
+
 export default {
   name: "home",
   components: {

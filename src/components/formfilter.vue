@@ -1,7 +1,7 @@
 <template>
   
   <b-row>
-   <div class="form mb-2 mt-4 px-3 pt-2rounded text-left">
+   <div class="form mb-2 px-3 pt-2rounded text-left">
     <span class="text-dark  search">Search</span>
     <form action="" method="post">
 
