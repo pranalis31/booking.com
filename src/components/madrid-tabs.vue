@@ -72,7 +72,7 @@
     .tab-links {
       text-decoration: none;
       border-radius: 0px !important;
-      padding: 4px 19px !important;
+      padding: 4px 26px !important;
     }
     .fonte {
       color: black;

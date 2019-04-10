@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+ 
     <b-row>
       <div class="form mb-2 mt-4 p-3 text-left">
         <span class="text-dark  search">Search</span>
