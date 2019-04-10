@@ -3,7 +3,7 @@
   <div>
     <b-row>
       <b-col md="3"> 
-        <Formfilter> </Formfilter>
+        <Formfilter class="mb-5"> </Formfilter>
       </b-col>
       <b-col md="9"> 
           <!-- using component -->

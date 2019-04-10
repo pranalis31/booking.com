@@ -20,7 +20,14 @@ import {
   faCar,
   faEllipsisH,
   faSortDown,
-  faQuestionCircle
+  faQuestionCircle,
+  faStar,
+  faThumbsUp,
+  faMapMarkerAlt,
+  faDirections,
+  faUser,
+  faChevronRight
+
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
@@ -40,7 +47,15 @@ library.add(
   faCar,
   faEllipsisH,
   faSortDown,
-  faQuestionCircle
+  faQuestionCircle,
+  faStar,
+  faThumbsUp,
+  faMapMarkerAlt,
+  faDirections,
+  faUser,
+  faChevronRight
+
+
 ); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
