@@ -16,38 +16,32 @@ import {
   faTh,
   faDumbbell,
   faRupeeSign,
-<<<<<<< HEAD
-  faCar,
-  faQuestionCircle
-=======
   faCheckCircle,
   faCar,
   faEllipsisH,
-  faSortDown
-
->>>>>>> aea986766915b4e60d66ab367e442e550e27ab0c
- 
-} from "@fortawesome/free-solid-svg-icons"; //fas fa
+  faSortDown,
+  faQuestionCircle
+ } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
   faLinkedinIn,
   faFacebookSquare,
   faTwitter
-
 } from "@fortawesome/free-brands-svg-icons"; //fab
 
 import { faCommentAlt } from "@fortawesome/free-regular-svg-icons";
 
-<<<<<<< HEAD
-library.add(faCaretDown, faTh, faDumbbell,faRupeeSign, faCar,faQuestionCircle); //fas
-=======
-
-library.add(faCaretDown, faTh, faDumbbell,faRupeeSign, faCar,faEllipsisH,  faSortDown); //fas
-
-library.add(faCaretDown, faTh, faDumbbell,faRupeeSign,faCheckCircle); //fas
-library.add(faCaretDown, faTh, faDumbbell,faRupeeSign, faCar); //fas
-
->>>>>>> aea986766915b4e60d66ab367e442e550e27ab0c
+library.add(
+  faCaretDown,
+  faTh,
+  faDumbbell,
+  faRupeeSign,
+  faCheckCircle,
+  faCar,
+  faEllipsisH,
+  faSortDown,
+  faQuestionCircle
+); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
 
