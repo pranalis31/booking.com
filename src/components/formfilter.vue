@@ -1,10 +1,11 @@
 <template>
-    <b-container>
+  
         <b-row>
-            <div class="form mb-2 mt-4 p-3 text-left">
+     <div class="form mb-2 mt-4 p-3 ml-3 rounded text-left">
     <span class="text-dark  search">Search</span>
     <form action="" method="post">
-      <b-form-group class="small"
+
+      <b-form-group class="small mt-1"
       id="input-sml"
       label="Enter your name"
       label-for="input-horizontal"
@@ -17,7 +18,7 @@
  
     </b-form-group>
      
-      <b-form-group class="small"
+      <b-form-group class="small mt-1"
       id="input-sml"
       label="Check-in date"
       label-for="input-horizontal"
@@ -30,9 +31,9 @@
  
     </b-form-group>
 
-     <b-form-group class="small "
+     <b-form-group class="small mt-1"
       id="input-sml"
-      label="check-out date"
+      label="Check-out date"
       label-for="input-horizontal"
       :invalid-feedback="invalidFeedback"
       :valid-feedback="validFeedback"
@@ -43,7 +44,7 @@
  
     </b-form-group>
 
-       <label class="small m-0">2 night-day</label>
+       <label class="small mt-2">2 night-day</label>
      <b-form-select v-model="selected" class="mb-2">
        <option :value="null">Please select an option</option>
       <option value="a">Option A</option>
@@ -55,7 +56,7 @@
       </b-form-select>
        <b-row>
            <b-col md="6">
-                <b-form-select v-model="selected" class="mb-3 ">
+                <b-form-select v-model="selected" class="mb-1">
                  <option :value="null">Please select an option</option>
                   <option value="a">Option A</option>
                    <option value="b" disabled>Option B (disabled)</option>
@@ -66,7 +67,7 @@
                   </b-form-select>
              </b-col>
              <b-col md="6">
-                  <b-form-select v-model="selected" class="mb-3">
+                  <b-form-select v-model="selected" class="mb-1">
                    <option :value="null">Please select an option</option>
                   <option value="a">Option A</option>
                     <option value="b" disabled>Option B (disabled)</option>
@@ -95,7 +96,7 @@
 
      </div>
     </b-row>
-    </b-container>
+   
 </template>
 
 <script>
@@ -117,7 +118,7 @@
 .form
 {
     width: 286px;
-    height: 485px;
+    height: 417px;
     background-color:$bg-form ;
 
 }
