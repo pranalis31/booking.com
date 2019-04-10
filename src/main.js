@@ -17,6 +17,7 @@ import {
   faDumbbell,
   faRupeeSign,
   faCheckCircle,
+  faCar,
   faEllipsisH,
   faSortDown,
   faQuestionCircle
