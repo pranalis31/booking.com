@@ -20,8 +20,12 @@ import {
   faCar,
   faEllipsisH,
   faSortDown,
-  faQuestionCircle
-} from "@fortawesome/free-solid-svg-icons"; //fas fa
+  faQuestionCircle,
+  faStar,
+  faHandPointRight,
+  faMapMarkerAlt,
+  faShareAlt,
+ } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
   faLinkedinIn,
@@ -29,7 +33,7 @@ import {
   faTwitter
 } from "@fortawesome/free-brands-svg-icons"; //fab
 
-import { faCommentAlt } from "@fortawesome/free-regular-svg-icons";
+import { faCommentAlt,faHeart } from "@fortawesome/free-regular-svg-icons";
 
 library.add(
   faCaretDown,
@@ -40,12 +44,16 @@ library.add(
   faCar,
   faEllipsisH,
   faSortDown,
-  faQuestionCircle
-); //fas
+  faQuestionCircle,
+  faStar,
+  faHandPointRight,
+  faMapMarkerAlt,
+  faShareAlt
+ ); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
 
-library.add(faCommentAlt); //far
+library.add(faCommentAlt,faHeart); //far
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.use(BootstrapVue);

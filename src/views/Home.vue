@@ -15,6 +15,18 @@
        <b-col md="9">
          <righttab></righttab>
          <rightheading></rightheading>
+         <imggallery></imggallery>
+
+         <b-row>
+         <b-col md="7">
+           <bookingtext></bookingtext>
+           <bookingline></bookingline>
+           <bookinngpara></bookinngpara>
+         </b-col>
+         <b-col md="5">
+         </b-col>
+         </b-row>
+
       </b-col>
     </b-row>
     </b-container>
@@ -32,7 +44,10 @@ import righttab from "@/components/righttab.vue";
 import leftpart from "@/components/leftpart.vue";
 import testimonial from "@/components/testimonial.vue";
 import rightheading from "@/components/rightheading.vue";
-
+import imggallery from "@/components/imggallery.vue";
+import bookingtext from "@/components/bookingtext.vue";
+import bookingline from "@/components/bookingline.vue";
+import bookingpara from "@/components/bookingpara.vue";
 export default {
   name: "home",
   components: {
@@ -43,7 +58,11 @@ export default {
     righttab,
     leftpart,
     testimonial,
-    rightheading
+    rightheading,
+    imggallery,
+    bookingtext,
+    bookingline,
+    bookingpara
   }
 };
 </script>
