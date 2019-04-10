@@ -13,7 +13,7 @@
             ></b-col>
             <b-col md="8">
               <div class="d-flex">
-                <div class="p-2">Flex item 1</div>
+                <div class="p-2">Vincci Centrum</div>
                 <div class="p-2">Flex item 2</div>
                 <div class="p-2">Flex item 3</div>
               </div>
