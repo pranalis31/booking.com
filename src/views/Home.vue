@@ -22,6 +22,7 @@
            <bookingtext></bookingtext>
            <bookingline></bookingline>
            <bookingpara></bookingpara>
+           <bookingfacilites></bookingfacilites>
          </b-col>
          <b-col md="5">
          </b-col>
@@ -48,6 +49,7 @@ import imggallery from "@/components/imggallery.vue";
 import bookingtext from "@/components/bookingtext.vue";
 import bookingline from "@/components/bookingline.vue";
 import bookingpara from "@/components/bookingpara.vue";
+import bookingfacilites from "@/components/bookingfacilites.vue";
 
 export default {
   name: "home",
@@ -63,7 +65,8 @@ export default {
     imggallery,
     bookingtext,
     bookingline,
-    bookingpara
+    bookingpara,
+    bookingfacilites
   }
 };
 </script>
