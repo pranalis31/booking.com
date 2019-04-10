@@ -15,8 +15,11 @@
            It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
            essentially unchanged. <br><br>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
            passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum<br><br>
-           It was popularised in the 1960s with the release of Letraset sheets containing <br>Lorem Ipsum 
-           passages, and more recently <br><br>with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+           It was popularised in the 1960s with the release of Letraset sheets containing <br><br>
+
+          <span class="font-weight-bold"> Lorem Ipsum passages and more recently PageMaker including versions</span><br>
+           It has survived not only five centuries
+           <div class="text-right text-secondary">Missing some information : <span class="text-primary">Yes/No</span></div>
        </p>
    </div> 
 </template>
