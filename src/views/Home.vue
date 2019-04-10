@@ -9,8 +9,10 @@
       <b-col md="4">
           <sidepartreserve></sidepartreserve>
           <formfilter></formfilter>
+          <leftpart></leftpart>
       </b-col>
        <b-col md="8">
+         <righttab></righttab>
       </b-col>
     </b-row>
     </b-container>
@@ -24,6 +26,8 @@ import bookingheader from "@/components/bookingheader.vue";
 import breadcrumb from "@/components/breadcrumb.vue";
 import sidepartreserve from "@/components/sidepartreserve.vue";
 import formfilter from "@/components/formfilter.vue";
+import righttab from "@/components/righttab.vue";
+import leftpart from "@/components/leftpart.vue";
 
 export default {
   name: "home",
@@ -31,7 +35,9 @@ export default {
     bookingheader,
     breadcrumb,
     sidepartreserve,
-    formfilter
+    formfilter,
+    righttab,
+    leftpart
   }
 };
 </script>
