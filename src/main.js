@@ -26,17 +26,21 @@ import {
   faMapMarkerAlt,
   faDirections,
   faUser,
-  faChevronRight
+  faChevronRight,
+  faHandPointRight,
+  faShareAlt,
+  
 
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
-
+ 
+ 
 import {
   faLinkedinIn,
   faFacebookSquare,
   faTwitter
 } from "@fortawesome/free-brands-svg-icons"; //fab
 
-import { faCommentAlt } from "@fortawesome/free-regular-svg-icons";
+import { faCommentAlt,faHeart } from "@fortawesome/free-regular-svg-icons";
 
 library.add(
   faCaretDown,
@@ -53,14 +57,18 @@ library.add(
   faMapMarkerAlt,
   faDirections,
   faUser,
-  faChevronRight
+  faChevronRight,
+  faHandPointRight,
+  faShareAlt,
 
 
 ); //fas
 
+
+
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab
 
-library.add(faCommentAlt); //far
+library.add(faCommentAlt,faHeart); //far
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 Vue.use(BootstrapVue);

@@ -1,19 +1,9 @@
 <template>
+  
   <b-row>
-    <div class="form mb-2 mt-4 px-3 pt-2 ml-3 rounded text-left">
-      <span class="text-dark  search">Search</span>
-      <form action="" method="post">
-        <b-form-group
-          class="small  mb-0"
-          id="input-sml"
-          label="Enter your name"
-          label-for="input-horizontal"
-          :invalid-feedback="invalidFeedback"
-          :valid-feedback="validFeedback"
-          :state="state"
-        >
-          <b-form-input id="input-sm" class="mt-0" size="sm"></b-form-input>
-        </b-form-group>
+   <div class="form mb-2 px-3 pt-2rounded text-left">
+    <span class="text-dark  search">Search</span>
+    <form action="" method="post">
 
         <b-form-group
           class="small mb-0"
