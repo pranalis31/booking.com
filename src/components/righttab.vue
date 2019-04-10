@@ -23,8 +23,11 @@
 </div>
 </template>
 <style lang="scss">
-.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link
+.nav-link.active
 {
-    background-color: none
+    color: unset; 
+    background-color:unset; 
+     border-color: unset;  
 }
+
 </style>
