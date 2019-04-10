@@ -1,20 +1,24 @@
 <template>
-  
   <b-row>
-   <div class="form mb-2 px-3 pt-2rounded text-left">
-    <span class="text-dark  search">Search</span>
-    <form action="" method="post">
-       <b-form-group
-      class="small mb-0"
-      id="fieldset-1"
-      label="Enter your name"
-      label-for="input-1"
-      :invalid-feedback="invalidFeedback"
-      :valid-feedback="validFeedback"
-      :state="state"
+    <div class="form mb-2 px-3 pt-2rounded text-left">
+      <span class="text-dark  search">Search</span>
+      <form action="" method="post">
+        <b-form-group
+          class="small mb-0"
+          id="fieldset-1"
+          label="Enter your name"
+          label-for="input-1"
+          :invalid-feedback="invalidFeedback"
+          :valid-feedback="validFeedback"
+          :state="state"
         >
-      <b-form-input id="input-1" v-model="name" :state="state" trim></b-form-input>
-       </b-form-group>
+          <b-form-input
+            id="input-1"
+            v-model="name"
+            :state="state"
+            trim
+          ></b-form-input>
+        </b-form-group>
 
         <b-form-group
           class="small mb-0"
