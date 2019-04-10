@@ -21,7 +21,7 @@ import {
   faEllipsisH,
   faSortDown,
   faQuestionCircle
- } from "@fortawesome/free-solid-svg-icons"; //fas fa
+} from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
   faLinkedinIn,
