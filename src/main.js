@@ -16,11 +16,10 @@ import {
   faTh,
   faDumbbell,
   faRupeeSign,
-  faCar,
-  faQuestionCircle,
   faCheckCircle,
   faEllipsisH,
-  faSortDown
+  faSortDown,
+  faQuestionCircle
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
@@ -36,11 +35,11 @@ library.add(
   faTh,
   faDumbbell,
   faRupeeSign,
-  faCar,
-  faQuestionCircle,
   faCheckCircle,
+  faCar,
   faEllipsisH,
-  faSortDown
+  faSortDown,
+  faQuestionCircle
 ); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab

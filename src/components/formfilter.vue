@@ -109,7 +109,7 @@
         </form>
       </div>
     </b-row>
-  </b-container>
+   
 </template>
 
 <script>
@@ -127,10 +127,12 @@ export default {
 
 <style lang="scss">
 @import "../assets/scss/booking/booking.scss";
-.form {
-  width: 286px;
-  height: 485px;
-  background-color: $bg-form;
+.form
+{
+    width: 286px;
+    height: 417px;
+    background-color:$bg-form ;
+
 }
 .search {
   font-size: 25px;
