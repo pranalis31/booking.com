@@ -102,17 +102,16 @@
 </template>
 
 <script>
-  export default {
-    data() {
-      return {
-        selected: 'first',
-        options: [
-          { text: 'I am travelling for work ', value: 'I am travelling for work' }
-         
-        ]
-      }
-    }
+export default {
+  data() {
+    return {
+      selected: "first",
+      options: [
+        { text: "I am travelling for work ", value: "I am travelling for work" }
+      ]
+    };
   }
+};
 </script>
 
 <style lang="scss">
@@ -124,13 +123,10 @@
     background-color:$bg-form ;
 
 }
-.search
-{
-    font-size: 25px;
+.search {
+  font-size: 25px;
 }
-.bt-bg
-{
-    background-color: $btn-blue;
+.bt-bg {
+  background-color: $btn-blue;
 }
-
 </style>
