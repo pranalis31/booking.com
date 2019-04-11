@@ -29,9 +29,9 @@ import {
   faChevronRight,
   faHandPointRight,
   faShareAlt,
+  faWifi
   
-
-} from "@fortawesome/free-solid-svg-icons"; //fas fa
+ } from "@fortawesome/free-solid-svg-icons"; //fas fa
  
  
 import {
@@ -60,7 +60,7 @@ library.add(
   faChevronRight,
   faHandPointRight,
   faShareAlt,
-
+  faWifi
 
 ); //fas
 

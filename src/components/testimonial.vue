@@ -63,31 +63,9 @@ export default {
           img: img1,
           title:'Prazian',
           subtitle:'Denmmark'
-        },
-         {
-          heading: 'Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty',
-          img: img1,
-          title:'Prazian',
-          subtitle:'Denmmark'
-        },
-         {
-          heading: 'Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty',
-          img: img1,
-          title:'Prazian',
-          subtitle:'Denmmark'
-        },
-         {
-          heading: 'Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty',
-          img: img1,
-          title:'Prazian',
-          subtitle:'Denmmark'
-        },
-         {
-          heading: 'Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty',
-          img: img1,
-          title:'Prazian',
-          subtitle:'Denmmark'
         }
+       
+        
 
       ]
     };
@@ -98,8 +76,8 @@ export default {
 <style lang="scss"scoped>
 .img-size
 {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
 }
 </style>

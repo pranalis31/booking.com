@@ -21,10 +21,12 @@
          <b-col md="7">
            <bookingtext></bookingtext>
            <bookingline></bookingline>
-           <bookingpara></bookingpara>
+           <bookingparagraph></bookingparagraph>
            <bookingfacilites></bookingfacilites>
          </b-col>
          <b-col md="5">
+           <bookingright></bookingright>
+           <optionbox></optionbox>
          </b-col>
          </b-row>
 
@@ -48,8 +50,10 @@ import rightheading from "@/components/rightheading.vue";
 import imggallery from "@/components/imggallery.vue";
 import bookingtext from "@/components/bookingtext.vue";
 import bookingline from "@/components/bookingline.vue";
-import bookingpara from "@/components/bookingpara.vue";
+import bookingparagraph from "@/components/bookingparagraph.vue";
 import bookingfacilites from "@/components/bookingfacilites.vue";
+import bookingright from "@/components/bookingright.vue";
+import optionbox from "@/components/option.vue";
 
 export default {
   name: "home",
@@ -65,8 +69,10 @@ export default {
     imggallery,
     bookingtext,
     bookingline,
-    bookingpara,
-    bookingfacilites
+    bookingparagraph,
+    bookingfacilites,
+    bookingright,
+    optionbox
   }
 };
 </script>
