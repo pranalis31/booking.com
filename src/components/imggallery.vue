@@ -1,20 +1,19 @@
 <template>
-    <b-row class="ml-3">
+    <b-row class="ml-1">
    
       <div  v-for="image in images" v-bind:key="image.index">
-            <figure class="img-color pt-2  px-5 ">
+            <div class="img-color pt-2  px-5 ">
               <b-img :src="image.img" class="size-img" alt="img1" /> 
              
-            </figure>
+            </div>
           </div>
     
           
           <div class="" v-for="image1 in imagesmall" v-bind:key="image1.index">
              
-            <figure >
-             <b-img :src="image1.img" class="small-img mr-1 pb-0" alt="img" /> 
-            </figure>
-             
+           
+             <b-img :src="image1.img" class="small-img mr-1 pt-1 pb-0" alt="img" /> 
+           
           </div>
 
  
