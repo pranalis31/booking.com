@@ -3,7 +3,7 @@
     <div class="footer-top">
       <div class="text-center p-5">
           <div class="text-light top-part-footer">Save Time , Save Money</div>
-           <div class="text-light ">Sign up and we will send the best deals to you</div>
+           <div class="text-light small">Sign up and we will send the best deals to you</div>
            <b-row>
             
                <b-col md="4" class=" mt-2 input-margin">
