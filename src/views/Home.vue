@@ -31,11 +31,10 @@
          </b-row>
 
       </b-col>
-      <b-col md="12">
-        <footer></footer>
-      </b-col>
+     
     </b-row>
     </b-container>
+      <bookingfooter></bookingfooter>
   </div>
 </template>
 
@@ -57,7 +56,7 @@ import bookingparagraph from "@/components/bookingparagraph.vue";
 import bookingfacilites from "@/components/bookingfacilites.vue";
 import bookingright from "@/components/bookingright.vue";
 import optionbox from "@/components/option.vue";
-import footer from "@/components/footer.vue";
+import bookingfooter from "@/components/footer.vue";
 
 
 export default {
@@ -78,7 +77,7 @@ export default {
     bookingfacilites,
     bookingright,
     optionbox,
-    footer
+    bookingfooter
   }
 };
 </script>
