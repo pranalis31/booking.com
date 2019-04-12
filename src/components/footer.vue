@@ -109,6 +109,31 @@
        </ul>
        </div>
   </b-col>
+  <b-col md="12">
+      <div class="text-left">
+          <span class="small text-secondary">Booking.com B.V is based in Amsterdam in the netherlands and is internationally supported by <span class="small text-primary"> 198 offices in 70 countries</span></span>
+      </div>
+      <div class="my-3">
+          <span class="text-primary font-weight-bold  small"><a href="">Extranel Login</a></span>
+      </div>
+       <div class="copyright text-left">
+           <span class="small text-secondary">Copyright &copy; 1996-2019 Booking.com<sup>TM</sup> All right reserved</span>
+      </div>
+       <div class="my-3">
+          <span class="small text-secondary"> Booking.com is a part of Booking Holding Inc,the world leader is online travel and related services</span>
+      </div>
+      <div class="my-3">
+          <span class="mr-4"> <b-img :src="imglogo" class=" logo-size mr-1 pt-1 pb-0" alt="img" /> </span>
+          <span class="mr-4"> <b-img :src="imglogo1" class=" logo-size mr-1 pt-1 pb-0" alt="img" /> </span>
+          <span class="mr-4"> <b-img :src="imglogo2" class=" logo-size mr-1 pt-1 pb-0" alt="img" /> </span>
+          <span class="mr-4">  <b-img :src="imglogo3" class=" logo-size mr-1 pt-1 pb-0" alt="img" /> </span>
+          <span class="mr-4"> <b-img :src="imglogo4" class="logo-size  mr-1 pt-1 pb-0" alt="img" /></span>
+           <span class="mr-4"> <b-img :src="imglogo5" class="logo-size  mr-1 pt-1 pb-0" alt="img" /></span>
+      </div>
+  </b-col>
+
+
+
          </b-row>
         </b-container>
       
@@ -118,8 +143,33 @@
 </div> 
 </template>
 
+<script>
+import img from  "../assets/images/logo-footer.png";
+import img1 from  "../assets/images/logo-footer1.png";
+import img2 from  "../assets/images/kayak-logo.png";
+import img3 from  "../assets/images/Agoda_logo.png";
+import img4 from  "../assets/images/rent.png";
+import img5 from  "../assets/images/open.png";
+
+
+export default {
+      data() {
+    return {
+    
+            imglogo:img,
+            imglogo1:img1,
+            imglogo2:img2,
+            imglogo3:img3,
+            imglogo4:img4,
+            imglogo5:img5
+   }
+  }
+}
+</script>
+
 <style lang="scss">
 @import "../assets/scss/booking/booking.scss";
+
 .footer-top
 {
     width: 100%;
@@ -127,6 +177,12 @@
     background-color: $footer-bg;
   
 }
+
+.logo-size{
+width:100px;
+height:auto;
+}
+
 .input-margin
 {
     margin-left: 271px;
