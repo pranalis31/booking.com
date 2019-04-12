@@ -106,7 +106,7 @@
     </b-form-checkbox>
 
         <div class="text-right mt-0">
-          <button class="bt-bg text-light px-3 py-2 font-weight-bold">Search</button>
+          <button class="bt-bg text-light px-4 py-1 font-weight-bold">Search</button>
         </div>
       </form>
     </div>
@@ -138,5 +138,6 @@ export default {
 }
 .bt-bg {
   background-color: $btn-blue;
+  font-size: 19px;
 }
 </style>

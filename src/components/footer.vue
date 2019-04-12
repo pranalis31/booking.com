@@ -9,7 +9,7 @@
                <b-col md="4" class=" mt-2 input-margin">
           
              <b-form-input v-model="text" placeholder="Enter your name"></b-form-input>
-              <b-form-checkbox class="small text-light mt-2"
+              <b-form-checkbox class="small text-left text-light mt-2"
                  id="checkbox-2"
                  v-model="status"
                   name="checkbox-a"
