@@ -79,15 +79,40 @@
                     </div>
                   </div>
                   <div class="text-left pt-3" v-if="card.showHappyText">
-                    <span class="happyalert rounded py-2 px-3 border-0 w-0">
+                    <span class="happyalert rounded py-2 px-3 border-0">
                       <font-awesome-icon
                         class="laughicon mr-2"
                         :icon="['fas', 'laugh']"
                       />{{ card.happytext }}
                     </span>
                   </div>
+                  <div class="text-left pt-3" v-if="card.showHousefull">
+                    <div class="housefullalert rounded py-2 px-3">
+                      <b-row class="px-3">
+                        <!-- <b-col> -->
+                        <font-awesome-icon
+                          class="housefullicon "
+                          :icon="['far', 'clock']"
+                        />
+                        <!-- </b-col> -->
+                        <b-col>
+                          <span class="font-weight-bold">
+                            You missed it!
+                            <span
+                              class="d-block housefull-inner font-weight-normal"
+                              >Your dates are popular - we have ran out of rooms
+                              for this property</span
+                            >
+                          </span>
+                        </b-col>
+                      </b-row>
+                    </div>
+                  </div>
                   <!-- second row -->
-                  <div class="d-flex justify-content-beetween">
+                  <div
+                    class="d-flex justify-content-beetween"
+                    v-if="!card.showHousefull"
+                  >
                     <!-- flex 1st col -->
                     <div class="text-left">
                       <div>
@@ -157,7 +182,7 @@
                     </div>
                   </div>
 
-                  <div class="text-right b-outlinbe">
+                  <div class="text-right b-outlinbe" v-if="!card.showHousefull">
                     <button class="room-btn px-2 py-1">
                       {{ card.pararight11 }}
                       <span>
@@ -207,7 +232,8 @@ export default {
           pararight8: " FREE cancellation ",
           pararight9: " No payment needed ",
           pararight10: " 15% off all car rentals",
-          pararight11: "See our last available rooms"
+          pararight11: "See our last available rooms",
+          showHousefull: false
         },
         {
           hotel1: images1,
@@ -223,7 +249,9 @@ export default {
           paraleft8: "   In high demand",
           paraleft9:
             "    Risk free: u can cancel later, so look in this great price",
-
+          showHappyText: true,
+          happytext:
+            "96% of guest reviewers had had thir expections of this property met or exceeded",
           pararight1: "Fabulous",
           pararight2: "2,462 reviews",
           pararight3: "8.6",
@@ -234,7 +262,8 @@ export default {
           pararight8: " FREE cancellation ",
           pararight9: " No payment needed ",
           pararight10: " 15% off all car rentals",
-          pararight11: "See our last available rooms"
+          pararight11: "See our last available rooms",
+          showHousefull: false
         },
         {
           hotel1: images1,
@@ -250,7 +279,9 @@ export default {
           paraleft8: "   In high demand",
           paraleft9:
             "    Risk free: u can cancel later, so look in this great price",
-
+          showHappyText: false,
+          happytext:
+            "96% of guest reviewers had had thir expections of this property met or exceeded",
           pararight1: "Fabulous",
           pararight2: "2,462 reviews",
           pararight3: "8.6",
@@ -261,7 +292,8 @@ export default {
           pararight8: " FREE cancellation ",
           pararight9: " No payment needed ",
           pararight10: " 15% off all car rentals",
-          pararight11: "See our last available rooms"
+          pararight11: "See our last available rooms",
+          showHousefull: false
         },
         {
           hotel1: images1,
@@ -277,7 +309,9 @@ export default {
           paraleft8: "   In high demand",
           paraleft9:
             "    Risk free: u can cancel later, so look in this great price",
-
+          showHappyText: false,
+          happytext:
+            "96% of guest reviewers had had thir expections of this property met or exceeded",
           pararight1: "Fabulous",
           pararight2: "2,462 reviews",
           pararight3: "8.6",
@@ -288,7 +322,8 @@ export default {
           pararight8: " FREE cancellation ",
           pararight9: " No payment needed ",
           pararight10: " 15% off all car rentals",
-          pararight11: "See our last available rooms"
+          pararight11: "See our last available rooms",
+          showHousefull: true
         },
         {
           hotel1: images1,
@@ -304,7 +339,9 @@ export default {
           paraleft8: "   In high demand",
           paraleft9:
             "    Risk free: u can cancel later, so look in this great price",
-
+          showHappyText: false,
+          happytext:
+            "96% of guest reviewers had had thir expections of this property met or exceeded",
           pararight1: "Fabulous",
           pararight2: "2,462 reviews",
           pararight3: "8.6",
@@ -315,34 +352,8 @@ export default {
           pararight8: " FREE cancellation ",
           pararight9: " No payment needed ",
           pararight10: " 15% off all car rentals",
-          pararight11: "See our last available rooms"
-        },
-        {
-          hotel1: images1,
-          heading: "   Vincci Centrum",
-          paraleft1: "Centro, Madrid- Show on map",
-          paraleft2: "(450 m from centre)",
-          paraleft3: "Metro access",
-          paraleft4:
-            " 5 other people loocked for your dates in the last 10 minutes",
-          paraleft5: "In high demand!",
-          paraleft6: " Booked 5 times for your dates in the last 24 hours",
-          paraleft7: "   Double or Twin Room -",
-          paraleft8: "   In high demand",
-          paraleft9:
-            "    Risk free: u can cancel later, so look in this great price",
-
-          pararight1: "Fabulous",
-          pararight2: "2,462 reviews",
-          pararight3: "8.6",
-          pararight4: "Location 9.4",
-          pararight5: "Price for 2 night",
-          pararight6: " 20,786",
-          pararight7: " taxes and charges included",
-          pararight8: " FREE cancellation ",
-          pararight9: " No payment needed ",
-          pararight10: " 15% off all car rentals",
-          pararight11: "See our last available rooms"
+          pararight11: "See our last available rooms",
+          showHousefull: true
         }
       ]
     };
@@ -510,5 +521,16 @@ export default {
 }
 .laughicon {
   font-size: 16px;
+}
+
+.housefullalert {
+  font-size: $para-font + 1;
+  color: red;
+  background: #feecec;
+  border: 2px solid #fddada;
+  .housefull-inner {
+    font-size: $para-font;
+    color: #2c3e50;
+  }
 }
 </style>
