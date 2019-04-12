@@ -16,6 +16,8 @@
               :icon="['fas', 'rupee-sign']"
             />
 
+            <b-img :src="imgicon" class="img-size mr-3" alt="img1" />
+
             <b-button
               variant="outline-light"
               size="sm"
@@ -52,10 +54,12 @@
 </template>
 <script>
 import img1 from "../assets/images/logo.png";
+import img2 from "../assets/images/iconflag.png";
 
 export default {
   data() {
     return {
+      imgicon: img2,
       images: [
         {
           img: img1
