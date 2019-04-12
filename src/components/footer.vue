@@ -19,7 +19,7 @@
                   send me a link to booking.com for accepting the link
                </b-form-checkbox> -->
                <div class="text-left mt-1">
-               <input type="checkbox" name="" id="footercheckbox" class=" mr-2"> <label for="footercheckbox" class="small text-left text-light mt-1"> send me a link to booking.com for accepting the link</label>
+               <input type="checkbox" name="" id="footercheckbox" class=" mr-2"> <label for="footercheckbox" class="small text-left text-light mt-1"> Send me a link to booking.com for accepting the link</label>
              
                </div>
 
