@@ -15,10 +15,7 @@
               class="text-light mr-3"
               :icon="['fas', 'rupee-sign']"
             />
-            <font-awesome-icon
-              class="text-light mr-3"
-              :icon="['fas', 'rupee-sign']"
-            />
+
             <b-button
               variant="outline-light"
               size="sm"
@@ -92,12 +89,14 @@ export default {
   }
 }
 
-.navbar-light .navbar-nav .nav-link:hover,
-{
+.navbar-light .navbar-nav .nav-link:hover {
   background-color: $head-top-hover;
 }
-.active-nav
- {
-   background-color: $head-top-hover;
- }
+.active-nav {
+  background-color: $head-top-hover;
+}
+.btn-outline-light:hover {
+  background-color: unset !important;
+  border-color: unset !important;
+}
 </style>

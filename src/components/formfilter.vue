@@ -107,21 +107,25 @@
             name="plain-stacked"
           ></b-form-radio-group>
         </b-form-group> -->
-        <b-form-checkbox 
+        <b-form-checkbox
           id="checkbox-1"
           v-model="status"
           name="checkbox-1"
           value="accepted"
           unchecked-value="not_accepted"
         >
-         <span class="small"> I am travelling for work </span> <font-awesome-icon
-          class="text-secondary mr-1 mt-2"
-          :icon="['fas', 'question-circle']"
-        />
+          <span class="small"> I am travelling for work </span>
+          <font-awesome-icon
+            class="text-secondary mr-1 mt-2"
+            :icon="['fas', 'question-circle']"
+          />
         </b-form-checkbox>
 
         <div class="text-right mt-0">
-          <button class="bt-bg text-light px-4 py-1 font-weight-bold">
+          <button
+            type="button"
+            class="bt-bg border-0 text-light px-4 py-1 font-weight-bold"
+          >
             Search
           </button>
         </div>
