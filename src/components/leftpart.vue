@@ -43,9 +43,7 @@
           ><font-awesome-icon
             class="text-primary mr-1 mt-1"
             :icon="['fas', 'car']"
-          />Taxi<span class="ml-5 pl-5 text-primary small"
-            >20 minutes</span
-          ></span
+          />Taxi<span class="ml-5 pl-5 text-dark  small">20 minutes</span></span
         >
       </div>
       <div class="py-2">

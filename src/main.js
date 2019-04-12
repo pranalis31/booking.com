@@ -34,7 +34,6 @@ import {
   faParking,
   faLock,
   faLaugh
-  
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {

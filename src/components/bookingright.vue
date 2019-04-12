@@ -181,7 +181,7 @@ export default {
 .btn-viniccihotels {
   background-color: #000;
   padding: 16px 36px;
-  margin: 28px 15px;
+  margin: 17px 15px;
   border: none;
   color: #fff;
 }

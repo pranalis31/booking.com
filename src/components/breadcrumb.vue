@@ -49,13 +49,8 @@ export default {
 </script>
 
 <style lang="scss">
-.li:first-child::before {
-  content: none;
-}
-.breadcrumb-item::before {
-  display: inline-block;
-  padding-right: 0.5rem;
-  color: #6c757d;
-  content: ">" !important;
+
+.breadcrumb > li + li:before {
+  content: "> " !important;
 }
 </style>

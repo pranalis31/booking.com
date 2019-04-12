@@ -59,7 +59,7 @@
 
         <label class="small">2 night-day</label>
         <b-form-select v-model="selected" class="mb-2">
-          <option :value="null">Please select an option</option>
+          <option class="small" :value="null">2 Adults</option>
           <option value="a">Option A</option>
           <option value="b" disabled>Option B (disabled)</option>
           <optgroup label="Grouped Options">
@@ -71,8 +71,8 @@
         </b-form-select>
         <b-row>
           <b-col md="6">
-            <b-form-select v-model="selected" class="mb-1">
-              <option :value="null">Please select an option</option>
+            <b-form-select v-model="selected" class="mb-1 ">
+              <option class="small" :value="null">No child</option>
               <option value="a">Option A</option>
               <option value="b" disabled>Option B (disabled)</option>
               <optgroup label="Grouped Options">
@@ -84,8 +84,8 @@
             </b-form-select>
           </b-col>
           <b-col md="6">
-            <b-form-select v-model="selected" class="mb-1">
-              <option :value="null">Please select an option</option>
+            <b-form-select v-model="selected" class="mb-1 ">
+              <option class="small" :value="null">1 room</option>
               <option value="a">Option A</option>
               <option value="b" disabled>Option B (disabled)</option>
               <optgroup label="Grouped Options">
@@ -98,15 +98,6 @@
           </b-col>
         </b-row>
 
-        <!-- <b-form-group label class="mb-0">
-          <b-form-radio-group
-            v-model="selected"
-            :options="options"
-            plain
-            stacked
-            name="plain-stacked"
-          ></b-form-radio-group>
-        </b-form-group> -->
         <b-form-checkbox
           id="checkbox-1"
           v-model="status"
@@ -121,7 +112,7 @@
           />
         </b-form-checkbox>
 
-        <div class="text-right mt-0">
+        <div class="text-right mt-2">
           <button
             type="button"
             class="bt-bg border-0 text-light px-4 py-1 font-weight-bold"
@@ -138,7 +129,7 @@
 export default {
   data() {
     return {
-      selected: "first",
+      selected: "null",
       options: [
         { text: "I am travelling for work ", value: "I am travelling for work" }
       ]
@@ -151,7 +142,7 @@ export default {
 @import "../assets/scss/booking/booking.scss";
 .form {
   width: 286px;
-  height: 419px;
+  height: 424px;
   background-color: $bg-form;
 }
 .search {
