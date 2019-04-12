@@ -37,7 +37,7 @@
           <div class="mb-3">
             <b-navbar class="p-0">
               <b-navbar-nav>
-                <b-nav-item href="#" class="mr-3 small"
+                <b-nav-item href="#" class="mr-3 small active-nav"
                   >Accomodation</b-nav-item
                 >
                 <b-nav-item href="#" class="mr-3 small">Flights</b-nav-item>
@@ -72,8 +72,8 @@ export default {
 <style lang="scss">
 @import "../assets/scss/booking/booking.scss";
 .head-top {
-   background-color: $headtop;
-   height: 110px;
+  background-color: $headtop;
+  height: 110px;
 }
 .img-size {
   height: 25px;
@@ -91,7 +91,13 @@ export default {
     }
   }
 }
-.nav-item:hover {
+
+.navbar-light .navbar-nav .nav-link:hover,
+{
   background-color: $head-top-hover;
 }
+.active-nav
+ {
+   background-color: $head-top-hover;
+ }
 </style>

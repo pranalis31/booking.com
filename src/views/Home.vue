@@ -5,36 +5,34 @@
     <bookingheader></bookingheader>
     <breadcrumb></breadcrumb>
     <b-container>
-    <b-row>
-      <b-col md="3">
+      <b-row>
+        <b-col md="3">
           <sidepartreserve></sidepartreserve>
           <formfilter class="mt-4"></formfilter>
           <leftpart></leftpart>
           <testimonial class="mb-4"></testimonial>
-      </b-col>
-       <b-col md="9">
-         <righttab></righttab>
-         <rightheading></rightheading>
-         <imggallery></imggallery>
+        </b-col>
+        <b-col md="9">
+          <righttab></righttab>
+          <rightheading></rightheading>
+          <imggallery></imggallery>
 
-         <b-row>
-         <b-col md="7">
-           <bookingtext></bookingtext>
-           <bookingline></bookingline>
-           <bookingparagraph></bookingparagraph>
-           <bookingfacilites></bookingfacilites>
-         </b-col>
-         <b-col md="5">
-           <bookingright></bookingright>
-           <optionbox class="my-2"></optionbox>
-         </b-col>
-         </b-row>
-
-      </b-col>
-     
-    </b-row>
+          <b-row>
+            <b-col md="7">
+              <bookingtext></bookingtext>
+              <bookingline></bookingline>
+              <bookingparagraph></bookingparagraph>
+              <bookingfacilites></bookingfacilites>
+            </b-col>
+            <b-col md="5">
+              <bookingright></bookingright>
+              <optionbox class="my-2"></optionbox>
+            </b-col>
+          </b-row>
+        </b-col>
+      </b-row>
     </b-container>
-      <bookingfooter></bookingfooter>
+    <bookingfooter></bookingfooter>
   </div>
 </template>
 
@@ -57,7 +55,6 @@ import bookingfacilites from "@/components/bookingfacilites.vue";
 import bookingright from "@/components/bookingright.vue";
 import optionbox from "@/components/option.vue";
 import bookingfooter from "@/components/footer.vue";
-
 
 export default {
   name: "home",
