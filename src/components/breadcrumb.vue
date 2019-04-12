@@ -47,6 +47,9 @@
 </script>
 
 <style lang="scss">
+.li:first-child::before {
+  content:none;
+}
 .breadcrumb-item::before {
     display: inline-block;
     padding-right: 0.5rem;

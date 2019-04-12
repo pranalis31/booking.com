@@ -10,7 +10,7 @@
           <sidepartreserve></sidepartreserve>
           <formfilter class="mt-4"></formfilter>
           <leftpart></leftpart>
-          <testimonial></testimonial>
+          <testimonial class="mb-4"></testimonial>
       </b-col>
        <b-col md="9">
          <righttab></righttab>
@@ -26,7 +26,7 @@
          </b-col>
          <b-col md="5">
            <bookingright></bookingright>
-           <optionbox></optionbox>
+           <optionbox class="my-2"></optionbox>
          </b-col>
          </b-row>
 

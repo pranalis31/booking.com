@@ -3,6 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 import "./registerServiceWorker";
+
+
 // bootstrap install
 import BootstrapVue from "bootstrap-vue";
 import "bootstrap/dist/css/bootstrap.css";
@@ -29,8 +31,9 @@ import {
   faChevronRight,
   faHandPointRight,
   faShareAlt,
-  faWifi
-  
+  faWifi,
+  faParking,
+  faLock
  } from "@fortawesome/free-solid-svg-icons"; //fas fa
  
  
@@ -60,8 +63,9 @@ library.add(
   faChevronRight,
   faHandPointRight,
   faShareAlt,
-  faWifi
-
+  faWifi,
+  faParking,
+  faLock
 ); //fas
 
 
@@ -79,3 +83,4 @@ new Vue({
   store,
   render: h => h(App)
 }).$mount("#app");
+

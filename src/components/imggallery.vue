@@ -129,6 +129,27 @@ export default {
            img:img2
          },
           {
+           img:img2,
+         },
+          {
+           img:img2
+         },
+          {
+           img:img2
+         },
+          {
+           img:img2,
+         },
+          {
+           img:img1,
+         },
+          {
+           img:img1,
+         },
+          {
+           img:img2
+         },
+          {
            img:img2
          },
           {

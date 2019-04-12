@@ -71,7 +71,7 @@
               <b-row>
                <b-col md="1">
                    <div class="mt-2 text-left">
-                 <font-awesome-icon class=" ml-1" :icon="['fas', 'wifi']"/>
+                 <font-awesome-icon class=" ml-1" :icon="['fas', 'lock']"/>
                    </div>
                </b-col>
                  <b-col md="10" >
@@ -86,16 +86,20 @@
             </div>
              </b-row>
            </div>
-
-         
-           
-           </div>
+         </div>
              <div class="side-image ml-4 mt-3" >
-                   <figure>
-                       <b-img :src="sideimage" class="" alt="img1" /> 
-                    </figure>
-           </div>
-       
+                <div class="  pt-5 font-weight-bold text-light">
+                  Save and Explore
+                </div>
+                  <div class="smallfont-weight-bold text-light">
+                 Book a Stay in Madrid and unlock
+                </div>
+                <div class="small font-weight-bold text-light">
+               15% off all car rentals
+                </div>
+             </div>
+             
+        
    
    </b-row>
     
@@ -106,12 +110,12 @@
 
 <script>
 import img1 from "../assets/images/img.jpeg";
-import img2 from "../assets/images//roomview.jpeg";
+// import img2 from "../assets/images//roomview.jpeg";
 
 export default {
   data() {
     return {
-        sideimage:img2,
+        // sideimage:img2,
       images: [
         {
          
@@ -177,8 +181,8 @@ export default {
 .btn-reserve
 {
    background-color: #007cc1;
-   padding: 6px 79px;
-   border: none;
+   padding: 6px 99px;
+   border: 1px solid #fff outset;
     color: #fff;
 }
 .viniccihotels
@@ -209,5 +213,11 @@ export default {
     width: 15px;
     height: 15px;
     border-radius: 50%;
+}
+.side-image
+{
+  background:linear-gradient(to bottom rgba(0, 0, 0, 0.9), rgba(29, 22, 21, 0.8)),url("../assets/images//roomview.jpeg") no-repeat;
+ width: 272px;
+ height: 191px;
 }
 </style>
