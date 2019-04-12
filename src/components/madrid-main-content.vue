@@ -3,7 +3,9 @@
   <div>
     <b-row>
       <b-col md="3">
-        <Formfilter> </Formfilter>
+        <div class="px-3">
+          <Formfilter> </Formfilter>
+        </div>
         <Bookingfilter> </Bookingfilter>
       </b-col>
       <b-col md="9">

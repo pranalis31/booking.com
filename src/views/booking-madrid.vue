@@ -6,6 +6,7 @@
       <Madrid> </Madrid>
       <MainMadrid> </MainMadrid>
     </b-container>
+    <BottomFooter></BottomFooter>
   </div>
 </template>
 
@@ -13,12 +14,14 @@
 import Madrid from "@/components/madrid-content.vue";
 import MainMadrid from "@/components/madrid-main-content.vue";
 import Navbar from "@/components/bookingheader.vue";
+import BottomFooter from "@/components/footer.vue";
 
 export default {
   components: {
     Madrid,
     MainMadrid,
-    Navbar
+    Navbar,
+    BottomFooter
   }
 };
 </script>

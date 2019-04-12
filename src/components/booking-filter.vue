@@ -1,23 +1,26 @@
 <template>
-    <div>
-
-  <b-card>
+  <div class="border rounded">
+    <div class="filterByTitle px-2 pt-3">Filter by:</div>
+    <hr />
     <div class="">
-      This is some content within the default <samp>&lt;b-card-body&gt;</samp> block of the
-      <samp>&lt;b-card&gt;</samp> component. Notice the padding between the card's border and this
-      gray <samp>&lt;div&gt;</samp>.
+      <checkboxfilter></checkboxfilter>
     </div>
-  </b-card>
-
-    </div>
+  </div>
 </template>
 <script>
+import checkboxfilter from "@/components/checkbox-filter.vue";
+
 export default {
-    
-}
+  components: {
+    checkboxfilter
+  }
+};
 </script>
 <style lang="scss" scoped>
-
+.filterByTitle {
+  text-align: left;
+  font-size: 13px;
+  font-weight: bold;
+  color: black;
+}
 </style>
-
-

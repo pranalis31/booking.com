@@ -10,11 +10,13 @@
                 <figure>
                   <div>
                     <b-img :src="card.hotel1" class="hotel-img"></b-img>
-                  </div></figure
-              ></b-col>
+                  </div>
+                </figure>
+              </b-col>
               <b-col md="9">
                 <div class="ml-3">
                   <div class="d-flex justify-content-beetween">
+                    <!-- first row -->
                     <!-- flex 1st col -->
                     <div class="text-left">
                       <div class="card-main-title">
@@ -62,6 +64,32 @@
                         <span class="metro-text"> {{ card.paraleft3 }}</span>
                       </div>
                       <!-- --- -->
+                    </div>
+                    <!-- flex 2nd col -->
+                    <div class="ml-auto">
+                      <div class="d-flex fab-dflex">
+                        <div>
+                          <div class="fab-text">{{ card.pararight1 }}</div>
+                          <div class="review-text">{{ card.pararight2 }}</div>
+                        </div>
+                        <div class="rate-in-no">{{ card.pararight3 }}</div>
+                      </div>
+                      <!-- --------- -->
+                      <div class="loc-text">{{ card.pararight4 }}</div>
+                    </div>
+                  </div>
+                  <div class="text-left pt-3" v-if="card.showHappyText">
+                    <span class="happyalert rounded py-2 px-3 border-0 w-0">
+                      <font-awesome-icon
+                        class="laughicon mr-2"
+                        :icon="['fas', 'laugh']"
+                      />{{ card.happytext }}
+                    </span>
+                  </div>
+                  <!-- second row -->
+                  <div class="d-flex justify-content-beetween">
+                    <!-- flex 1st col -->
+                    <div class="text-left">
                       <div>
                         <div class="card-para mt-2">
                           {{ card.paraleft4 }}
@@ -72,6 +100,12 @@
                         <div class="demand-text">
                           <span class="bg-demand"> {{ card.paraleft5 }}</span>
                           <span class="demand-para"> {{ card.paraleft6 }}</span>
+                        </div>
+                      </div>
+                      <!-- ---- -->
+                      <div>
+                        <div class="happydeal-text mt-1">
+                          <span class="yellobg"> Easter Deal </span>
                         </div>
                       </div>
                       <!-- ---- -->
@@ -94,22 +128,12 @@
                       </div>
                       <!--  -->
                       <div class="risk-text">
-                                 {{ card.paraleft9 }}
+                        {{ card.paraleft9 }}
                       </div>
                     </div>
                     <!-- flex 2nd col -->
                     <div class="ml-auto">
-                      <div class="d-flex fab-dflex">
-                        <div>
-                          <div class="fab-text">          {{ card.pararight1 }}</div>
-                          <div class="review-text"> {{ card.pararight2 }}</div>
-                        </div>
-                        <div class="rate-in-no"> {{ card.pararight3 }}</div>
-                      </div>
-                      <!-- --------- -->
-                      <div class="loc-text"> {{ card.pararight4 }}</div>
-                      <!--  -->
-                      <div class="price-text"> {{ card.pararight5 }}</div>
+                      <div class="price-text">{{ card.pararight5 }}</div>
                       <!--  -->
                       <div class="price-no">
                         <span>
@@ -117,26 +141,29 @@
                             class="user-icon"
                             :icon="['fas', 'rupee-sign']"
                         /></span>
-                       {{ card.pararight6 }}
+                        {{ card.pararight6 }}
                       </div>
                       <!--  -->
-                      <div class="tax-text"> {{ card.pararight7 }}</div>
+                      <div class="tax-text">{{ card.pararight7 }}</div>
                       <div class="cancellation-text">
-                         {{ card.pararight8 }}
-                        <div class="cancellation-text"> {{ card.pararight9 }}</div>
+                        {{ card.pararight8 }}
                         <div class="cancellation-text">
-                         {{ card.pararight10 }}
+                          {{ card.pararight9 }}
+                        </div>
+                        <div class="cancellation-text">
+                          {{ card.pararight10 }}
                         </div>
                       </div>
                     </div>
                   </div>
+
                   <div class="text-right b-outlinbe">
-                    <b-button class="room-btn"
-                      > {{ card.pararight11 }}
+                    <button class="room-btn px-2 py-1">
+                      {{ card.pararight11 }}
                       <span>
-                        <font-awesome-icon
-                          :icon="['fas', 'chevron-right']"/></span
-                    ></b-button>
+                        <font-awesome-icon :icon="['fas', 'chevron-right']"
+                      /></span>
+                    </button>
                   </div>
                 </div>
               </b-col>
@@ -167,7 +194,9 @@ export default {
           paraleft8: "   In high demand",
           paraleft9:
             "    Risk free: u can cancel later, so look in this great price",
-
+          showHappyText: false,
+          happytext:
+            "96% of guest reviewers had had thir expections of this property met or exceeded",
           pararight1: "Fabulous",
           pararight2: "2,462 reviews",
           pararight3: "8.6",
@@ -180,7 +209,7 @@ export default {
           pararight10: " 15% off all car rentals",
           pararight11: "See our last available rooms"
         },
-              {
+        {
           hotel1: images1,
           heading: "   Vincci Centrum",
           paraleft1: "Centro, Madrid- Show on map",
@@ -207,7 +236,7 @@ export default {
           pararight10: " 15% off all car rentals",
           pararight11: "See our last available rooms"
         },
-              {
+        {
           hotel1: images1,
           heading: "   Vincci Centrum",
           paraleft1: "Centro, Madrid- Show on map",
@@ -234,7 +263,7 @@ export default {
           pararight10: " 15% off all car rentals",
           pararight11: "See our last available rooms"
         },
-              {
+        {
           hotel1: images1,
           heading: "   Vincci Centrum",
           paraleft1: "Centro, Madrid- Show on map",
@@ -261,7 +290,7 @@ export default {
           pararight10: " 15% off all car rentals",
           pararight11: "See our last available rooms"
         },
-              {
+        {
           hotel1: images1,
           heading: "   Vincci Centrum",
           paraleft1: "Centro, Madrid- Show on map",
@@ -288,7 +317,7 @@ export default {
           pararight10: " 15% off all car rentals",
           pararight11: "See our last available rooms"
         },
-              {
+        {
           hotel1: images1,
           heading: "   Vincci Centrum",
           paraleft1: "Centro, Madrid- Show on map",
@@ -376,6 +405,16 @@ export default {
   }
 }
 // ***
+.happydeal-text {
+  font-size: $para-font + 1;
+  .yellobg {
+    background-color: orange;
+    color: white;
+    padding: 3px 7px;
+    border-radius: 4px;
+  }
+}
+// ***
 .room-text {
   font-weight: bold;
   font-size: $para-font;
@@ -428,11 +467,10 @@ export default {
   color: white;
   font-size: $para-font;
   border-radius: 3px;
-  padding: 2px;
+  padding: 2px 8px;
   margin-top: 39px;
   text-align: right;
   margin-left: 56px;
-  padding-right: 4px;
 }
 .price-no {
   color: $bg-text-green;
@@ -453,13 +491,24 @@ export default {
   text-align: right;
 }
 // ****************
+.happyalert {
+  font-size: $para-font;
+  text-align: left;
+  color: #155724;
+  background-color: #d4edda;
+}
 
 .room-btn {
   background-color: $btn-blue;
   border-radius: 0px;
   color: white;
   margin-top: 8px;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: bold;
+  border: 0;
+  outline: none;
+}
+.laughicon {
+  font-size: 16px;
 }
 </style>
