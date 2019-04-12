@@ -1,7 +1,7 @@
 <template>
   <div class="border rounded">
-    <div class="filterByTitle px-2 pt-3">Filter by:</div>
-    <hr />
+    <div class="filterByTitle px-2 pt-3 pb-2">Filter by:</div>
+    <hr class="mt-0" />
     <div class="">
       <checkboxfilter></checkboxfilter>
     </div>
