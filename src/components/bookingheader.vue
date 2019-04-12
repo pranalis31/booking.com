@@ -15,10 +15,9 @@
               class="text-light mr-3"
               :icon="['fas', 'rupee-sign']"
             />
-            <font-awesome-icon
-              class="text-light mr-3"
-              :icon="['fas', 'rupee-sign']"
-            />
+
+            <b-img :src="imgicon" class="img-size mr-3" alt="img1" />
+
             <b-button
               variant="outline-light"
               size="sm"
@@ -37,7 +36,7 @@
           <div class="mb-3">
             <b-navbar class="p-0">
               <b-navbar-nav>
-                <b-nav-item href="#" class="mr-3 small"
+                <b-nav-item href="#" class="mr-3 small active-nav"
                   >Accomodation</b-nav-item
                 >
                 <b-nav-item href="#" class="mr-3 small">Flights</b-nav-item>
@@ -55,10 +54,12 @@
 </template>
 <script>
 import img1 from "../assets/images/logo.png";
+import img2 from "../assets/images/iconflag.png";
 
 export default {
   data() {
     return {
+      imgicon: img2,
       images: [
         {
           img: img1
@@ -72,8 +73,8 @@ export default {
 <style lang="scss">
 @import "../assets/scss/booking/booking.scss";
 .head-top {
-   background-color: $headtop;
-   height: 110px;
+  background-color: $headtop;
+  height: 110px;
 }
 .img-size {
   height: 25px;
@@ -91,7 +92,15 @@ export default {
     }
   }
 }
-.nav-item:hover {
+
+.navbar-light .navbar-nav .nav-link:hover {
   background-color: $head-top-hover;
+}
+.active-nav {
+  background-color: $head-top-hover;
+}
+.btn-outline-light:hover {
+  background-color: unset !important;
+  border-color: unset !important;
 }
 </style>
