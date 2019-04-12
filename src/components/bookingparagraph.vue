@@ -29,8 +29,7 @@
 
       <span class="text-dark font-weight-bold">
         Lorem Ipsum passages and more recently PageMaker including
-        versions</span
-      ><br />
+        versions</span ><br />
       It has survived not only five centuries
       <div class="text-right text-secondary small">
         Missing some information : <span class="text-primary">Yes/No</span>
