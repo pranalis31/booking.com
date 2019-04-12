@@ -9,7 +9,7 @@
                <b-col md="4" class=" mt-2 input-margin">
           
              <b-form-input v-model="text" placeholder="Enter your name"></b-form-input>
-              <b-form-checkbox class="small text-left text-light mt-2"
+              <!-- <b-form-checkbox class="small check-size text-left text-light mt-2"
                  id="checkbox-2"
                  v-model="status"
                   name="checkbox-a"
@@ -17,7 +17,12 @@
                   unchecked-value="not_accepted"
                    >
                   send me a link to booking.com for accepting the link
-               </b-form-checkbox>
+               </b-form-checkbox> -->
+               <div class="text-left mt-1">
+               <input type="checkbox" name="" id="footercheckbox" class=" mr-2"> <label for="footercheckbox" class="small text-left text-light mt-1"> send me a link to booking.com for accepting the link</label>
+             
+               </div>
+
                </b-col>
                <b-col md="1">
                      <button  class="btn-reserve">Reserve</button>
@@ -177,7 +182,11 @@ export default {
     background-color: $footer-bg;
   
 }
-
+.chesk-size
+{
+    width:20px;
+    height:20px;
+}
 .logo-size{
 width:100px;
 height:auto;
