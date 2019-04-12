@@ -11,11 +11,11 @@
            <span class="bg-warning p-1 mt-0">
            <font-awesome-icon class="text-light" :icon="['fas', 'hand-point-right']"/>
           </span> 
-          <div class="">
+          <div class="small">
               <font-awesome-icon class="text-primary mr-2" :icon="['fas', 'map-marker-alt']"/>Cenderos 4 Centro,24810 Madrid,Spain- 
-              <span class="text-primary font-weight-bold"><a href="#">Excellent Location - Show Map </a></span>
+              <span class="small text-primary font-weight-bold"><a href="#">Excellent Location - Show Map </a></span>
           </div>
-           <div class="text font-weight-bold">
+           <div class="text small font-weight-bold">
                <font-awesome-icon class="text mr-2" :icon="['fas', 'car']"/> Booking accomodation in Madrid and get 15% offf all car rentals
             
           </div>
@@ -23,8 +23,8 @@
          <b-col md="3">
              <span> <font-awesome-icon class="text-primary size  mt-2" :icon="['far', 'heart']"/></span>
                <span> <font-awesome-icon class="text-primary size ml-2 mt-2" :icon="['fas', 'share-alt']"/></span>
-                <button  class="bt-bg text-light mt-1 px-2 ml-2 font-weight-bold">Reserve</button> 
-                <div class="italice font-weight-bold"> <font-awesome-icon class="text-primary  mr-1 mt-3" :icon="['fas', 'check-circle']"/>We Price Match</div>
+                <button  class="small bt-bg text-light mt-1 px-2 ml-2 font-weight-bold">Reserve</button> 
+                <div class="small italice font-weight-bold"> <font-awesome-icon class="text-primary  mr-1 mt-3" :icon="['fas', 'check-circle']"/>We Price Match</div>
         </b-col>
     </b-row>
 </template>
