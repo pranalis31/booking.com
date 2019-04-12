@@ -30,14 +30,11 @@
           :valid-feedback="validFeedback"
           :state="state"
         >
-          <b-form-input
-            id="input-sm"
-            type="date"
-            class="mt-0"
-            size="sm"
-            placeholder="12-April-2018"
-          ></b-form-input>
         </b-form-group>
+        <datepicker
+          placeholder="19-April-2019"
+          v-model="vmodelexample"
+        ></datepicker>
 
         <b-form-group
           class="small mb-0"
@@ -48,14 +45,11 @@
           :valid-feedback="validFeedback"
           :state="state"
         >
-          <b-form-input
-            id="input-sm"
-            type="date"
-            class="mt-0"
-            size="sm"
-            placeholder="12-April-2018"
-          ></b-form-input>
         </b-form-group>
+        <datepicker
+          placeholder="19-April-2019"
+          v-model="vmodelexample"
+        ></datepicker>
 
         <label class="small">2 night-day</label>
         <b-form-select v-model="selected" class="mb-2">
@@ -112,7 +106,7 @@
           />
         </b-form-checkbox>
 
-        <div class="text-right mt-2">
+        <div class="text-right mt-2 mb-2">
           <button
             type="button"
             class="bt-bg border-0 text-light px-4 py-1 font-weight-bold"
@@ -126,6 +120,7 @@
 </template>
 
 <script>
+import Datepicker from "vuejs-datepicker";
 export default {
   data() {
     return {
@@ -134,6 +129,9 @@ export default {
         { text: "I am travelling for work ", value: "I am travelling for work" }
       ]
     };
+  },
+  components: {
+    Datepicker
   }
 };
 </script>
@@ -142,7 +140,7 @@ export default {
 @import "../assets/scss/booking/booking.scss";
 .form {
   width: 286px;
-  height: 424px;
+  height: auto;
   background-color: $bg-form;
 }
 .search {
@@ -151,5 +149,10 @@ export default {
 .bt-bg {
   background-color: $btn-blue;
   font-size: 19px;
+}
+.vdp-datepicker * {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px 4px;
 }
 </style>
