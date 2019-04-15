@@ -83,12 +83,12 @@
   padding: 1px 5px;
 }
 .person-icon {
-  padding: 0.30rem;
+  padding: 0.3rem;
   border: 1px solid dodgerblue;
   border-radius: 50%;
 }
 .color-person-bg {
   background-color: $navtext;
-  padding: 0.40rem;
+  padding: 0.4rem;
 }
 </style>

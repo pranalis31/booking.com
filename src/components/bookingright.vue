@@ -19,7 +19,9 @@
               </div>
             </b-col>
             <b-col md="10" class="text-left mt-2 small">
-              <span class="text-dark font-weight-bold">&#34;{{ image.title }}&#34;</span>
+              <span class="text-dark font-weight-bold"
+                >&#34;{{ image.title }}&#34;</span
+              >
               <div>{{ image.subtitle }}</div>
             </b-col>
           </b-row>
