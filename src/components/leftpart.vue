@@ -1,11 +1,12 @@
 <template>
   <b-row>
-    <div class="reserve-place px-1">
-      <span class="small italics font-weight-bold text-dark">
-        <font-awesome-icon
-          class="text-primary mr-1 mt-3"
-          :icon="['fas', 'eye']"
-        />1,375 peoples are currently looking for a place in madrid</span
+    <div class="reserve-place px-3">
+      <font-awesome-icon
+        class="text-primary mr-1 mt-3"
+        :icon="['fas', 'eye']"
+      /><span class="small text-mute"
+        >1,375 peoples are currently looking
+        <div class="ml-4">for a place in madrid</div></span
       >
     </div>
 
@@ -13,7 +14,7 @@
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d15085.89263906098!2d72.85745569999999!3d19.042923249999998!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1554814434759!5m2!1sen!2sin"
         width="289"
-        height="200"
+        height="150"
         frameborder="0"
         style="border:0"
         allowfullscreen
@@ -39,20 +40,25 @@
     </div>
     <div class="border border-bottom airport-box text-left">
       <div class="py-2">
-        <span class="pb-2 border-bottom px-2"
+        <span class="pb-2 border-bottom px-2 small"
           ><font-awesome-icon
-            class="text-primary mr-1 mt-1"
+            class="text-dark mr-1 mt-1"
             :icon="['fas', 'car']"
           />Taxi<span class="ml-5 pl-5 text-dark  small">20 minutes</span></span
         >
       </div>
       <div class="py-2">
-        <span class="px-2 "
+        <span class="px-2 small"
           ><font-awesome-icon
-            class="text-primary mr-1 mt-1"
+            class="text-dark mr-1 mt-1"
             :icon="['fas', 'parking']"
           />Parking available</span
         >
+      </div>
+      <div class="py-2">
+        <span class="px-5 small text-secondary border-bottom">
+          15% off all car rentals
+        </span>
       </div>
     </div>
 
@@ -77,6 +83,7 @@
   width: 286px;
   height: 66px;
   background-color: $navtext;
+  text-align: left;
 }
 .reserve1 {
   width: 286px;
@@ -89,7 +96,7 @@
 }
 .map-position {
   position: relative;
-  top: -146px;
+  top: -114px;
 }
 .margin-set {
   margin-top: -80px;

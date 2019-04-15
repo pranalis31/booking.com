@@ -1,12 +1,12 @@
 <template>
   <b-row>
-    <div class="form mb-2 px-3 pt-2 rounded text-left">
+    <div class="form mb-2 px-3 pt-2 mt-1 rounded text-left">
       <span class="text-dark search">Search</span>
       <form action method="post">
         <b-form-group
           class="small mb-0"
           id="fieldset-1"
-          label="Enter your name"
+          label="Destinatoin/property name"
           label-for="input-1"
           :invalid-feedback="invalidFeedback"
           :valid-feedback="validFeedback"
@@ -98,7 +98,7 @@
         <input type="checkbox" name="" id="footercheckbox1" />
         <span class="small"> I am travelling for work </span>
         <font-awesome-icon
-          class="text-secondary mr-1 mt-2"
+          class="text-dark mr-1 mt-2"
           :icon="['fas', 'question-circle']"
         />
 

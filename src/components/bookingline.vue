@@ -7,6 +7,6 @@
 
 <style lang="scss">
 .top-guide {
-  color: #bb5d1d;
+  color: #924f1b;
 }
 </style>

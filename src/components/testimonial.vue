@@ -5,9 +5,7 @@
       v-for="image in images"
       v-bind:key="image.index"
     >
-      <span class="text-dark text-left">
-        {{ image.heading }}
-      </span>
+      <span class="text-dark text-left"> &#34;{{ image.heading }}&#34; </span>
       <b-row>
         <b-col md="2">
           <div class="img-display mt-3 text-left">
@@ -16,13 +14,11 @@
             </figure>
           </div>
         </b-col>
-        <b-col md="10" class="text-left mt-3">
+        <b-col md="10" class="text-left mt-3 pl-0">
           <span class="text-dark font-weight-bold">{{ image.title }}</span>
           <div>
-            <font-awesome-icon
-              class="text-primary "
-              :icon="['fas', 'check-circle']"
-            />
+            <b-img :src="image.imgicon" class="img-size12" alt="img1" />
+
             {{ image.subtitle }}
           </div>
         </b-col>
@@ -33,6 +29,7 @@
 
 <script>
 import img1 from "../assets/images/img.jpeg";
+import img2 from "../assets/images/iconflag.png";
 
 export default {
   data() {
@@ -43,42 +40,48 @@ export default {
             "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
           img: img1,
           title: "Prazian",
-          subtitle: "Denmmark"
+          imgicon: img2,
+          subtitle: "Denmark"
+        },
+        {
+          heading:
+            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
+          img: img1,
+          title: "Lyan",
+          imgicon: img2,
+          subtitle: "Denmark"
+        },
+        {
+          heading:
+            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
+          img: img1,
+          title: "Richard",
+          imgicon: img2,
+          subtitle: "United Kingdom"
+        },
+        {
+          heading:
+            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
+          img: img1,
+          title: "Ben",
+          imgicon: img2,
+          subtitle: "United Kingdom"
         },
         {
           heading:
             "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
           img: img1,
           title: "Prazian",
-          subtitle: "Denmmark"
+          imgicon: img2,
+          subtitle: "United Kingdom"
         },
         {
           heading:
             "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
           img: img1,
-          title: "Prazian",
-          subtitle: "Denmmark"
-        },
-        {
-          heading:
-            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
-          img: img1,
-          title: "Prazian",
-          subtitle: "Denmmark"
-        },
-        {
-          heading:
-            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
-          img: img1,
-          title: "Prazian",
-          subtitle: "Denmmark"
-        },
-        {
-          heading:
-            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
-          img: img1,
-          title: "Prazian",
-          subtitle: "Denmmark"
+          title: "Harald",
+          imgicon: img2,
+          subtitle: "Norway"
         }
       ]
     };
@@ -91,5 +94,8 @@ export default {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+}
+.img-size12 {
+  height: 15px;
 }
 </style>

@@ -200,7 +200,7 @@ export default {
 .side-image {
   background: linear-gradient(
       to bottom rgba(0, 0, 0, 0.9),
-      rgba(29, 22, 21, 0.8)
+      rgba(25, 23, 23, 0.4)
     ),
     url("../assets/images//roomview.jpeg") no-repeat;
   width: 272px;

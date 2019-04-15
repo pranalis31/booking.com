@@ -86,6 +86,7 @@
   padding: 0.3rem;
   border: 1px solid dodgerblue;
   border-radius: 50%;
+  font-size: 11px;
 }
 .color-person-bg {
   background-color: $navtext;
