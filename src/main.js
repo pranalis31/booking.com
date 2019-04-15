@@ -33,7 +33,8 @@ import {
   faWifi,
   faParking,
   faLock,
-  faLaugh
+  faLaugh,
+  faCalendar
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
@@ -70,7 +71,8 @@ library.add(
   faParking,
   faLock,
   faLaugh,
-  faQuestionCircle
+  faQuestionCircle,
+  faCalendar
 ); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab

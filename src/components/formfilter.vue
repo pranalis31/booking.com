@@ -14,6 +14,7 @@
         >
           <b-form-input
             id="input-1"
+            class="small mt-0"
             v-model="name"
             :state="state"
             placeholder="Madrid"
@@ -52,8 +53,8 @@
         ></datepicker>
 
         <label class="small">2 night-day</label>
-        <b-form-select v-model="selected" class="mb-2">
-          <option class="small" :value="null">2 Adults</option>
+        <b-form-select v-model="selected" class="mb-2 small">
+          <option :value="null">2 Adults</option>
           <option value="a">Option A</option>
           <option value="b" disabled>Option B (disabled)</option>
           <optgroup label="Grouped Options">
@@ -66,7 +67,7 @@
         <b-row>
           <b-col md="6">
             <b-form-select v-model="selected" class="mb-1 ">
-              <option class="small" :value="null">No child</option>
+              <option :value="null">No child</option>
               <option value="a">Option A</option>
               <option value="b" disabled>Option B (disabled)</option>
               <optgroup label="Grouped Options">
@@ -79,7 +80,7 @@
           </b-col>
           <b-col md="6">
             <b-form-select v-model="selected" class="mb-1 ">
-              <option class="small" :value="null">1 room</option>
+              <option class="option-font" :value="null">1 room</option>
               <option value="a">Option A</option>
               <option value="b" disabled>Option B (disabled)</option>
               <optgroup label="Grouped Options">
@@ -155,4 +156,5 @@ export default {
   width: 100%;
   padding: 5px 4px;
 }
+
 </style>
