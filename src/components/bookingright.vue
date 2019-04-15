@@ -19,7 +19,7 @@
               </div>
             </b-col>
             <b-col md="10" class="text-left mt-2 small">
-              <span class="text-dark font-weight-bold">{{ image.title }}</span>
+              <span class="text-dark font-weight-bold">&#34;{{ image.title }}&#34;</span>
               <div>{{ image.subtitle }}</div>
             </b-col>
           </b-row>
@@ -123,19 +123,19 @@ export default {
       // sideimage:img2,
       images: [
         {
-          title: "Prazian",
-          subtitle: "Denmmark"
+          title: "Friendly staff",
+          subtitle: "65 related review "
         },
         {
-          title: "Prazian",
-          subtitle: "Denmmark"
+          title: "Excellent location",
+          subtitle: "65 related review"
         },
         {
-          title: "Prazian",
-          subtitle: "Denmmark"
+          title: "clean room",
+          subtitle: "65 related review"
         },
         {
-          title: "Prazian"
+          title: "boutique style"
         }
       ],
       contentsection: [

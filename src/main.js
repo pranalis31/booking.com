@@ -34,7 +34,9 @@ import {
   faParking,
   faLock,
   faLaugh,
-  faCalendar
+  faCalendar,
+  faFemale,
+  faEye
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
@@ -72,7 +74,9 @@ library.add(
   faLock,
   faLaugh,
   faQuestionCircle,
-  faCalendar
+  faCalendar,
+  faFemale,
+  faEye
 ); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab

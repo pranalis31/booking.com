@@ -2,7 +2,7 @@
   <b-container>
     <b-row>
       <b-breadcrumb
-        class="bg-white text-primary small"
+        class="bg-white text-primary small mr-5 "
         :items="items"
       ></b-breadcrumb>
     </b-row>
@@ -51,5 +51,8 @@ export default {
 <style lang="scss">
 .breadcrumb > li + li:before {
   content: "> " !important;
+}
+.breadcrumb > li a {
+  padding: 0 0.35rem 0 0.35rem;
 }
 </style>

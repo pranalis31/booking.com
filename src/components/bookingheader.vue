@@ -12,11 +12,11 @@
         <b-col md="6">
           <div class="mt-3 ">
             <font-awesome-icon
-              class="text-light small mr-3"
+              class="text-light small mr-2"
               :icon="['fas', 'rupee-sign']"
             />
 
-            <b-img :src="imgicon" class="img-size ml-4 mr-3" alt="img1" />
+            <b-img :src="imgicon" class="img-size ml-4 mr-4" alt="img1" />
 
             <b-button
               variant="outline-light"

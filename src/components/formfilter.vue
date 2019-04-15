@@ -55,7 +55,7 @@
         ></datepicker>
 
         <label class="small">2 night-day</label>
-        <b-form-select v-model="selected" class="input-height  mb-2 small">
+        <b-form-select v-model="selected11" class="input-height  mb-2 small">
           <option :value="null">2 Adults</option>
           <option value="a">Option A</option>
           <option value="b" disabled>Option B (disabled)</option>
@@ -81,7 +81,7 @@
             </b-form-select>
           </b-col>
           <b-col md="6">
-            <b-form-select v-model="selected" class=" input-height  mb-1 ">
+            <b-form-select v-model="selected1" class=" input-height  mb-1 ">
               <option class="option-font" :value="null">1 room</option>
               <option value="a">Option A</option>
               <option value="b" disabled>Option B (disabled)</option>
@@ -95,19 +95,12 @@
           </b-col>
         </b-row>
 
-        <b-form-checkbox
-          id="checkbox-1"
-          v-model="status"
-          name="checkbox-1"
-          value="accepted"
-          unchecked-value="not_accepted"
-        >
-          <span class="small"> I am travelling for work </span>
-          <font-awesome-icon
-            class="text-secondary mr-1 mt-2"
-            :icon="['fas', 'question-circle']"
-          />
-        </b-form-checkbox>
+        <input type="checkbox" name="" id="footercheckbox1" />
+        <span class="small"> I am travelling for work </span>
+        <font-awesome-icon
+          class="text-secondary mr-1 mt-2"
+          :icon="['fas', 'question-circle']"
+        />
 
         <div class="text-right mt-2 mb-2">
           <button
@@ -128,6 +121,8 @@ export default {
   data() {
     return {
       selected: "null",
+      selected1: "null",
+      selected11: "null",
       options: [
         { text: "I am travelling for work ", value: "I am travelling for work" }
       ]
@@ -163,7 +158,7 @@ export default {
   padding: 5px 4px;
 }
 .vdp-datepicker * {
-  padding: 3px 4px;
+  padding: 4px 4px;
 }
 .custom-select {
   padding: 0 0 0 6px !important;

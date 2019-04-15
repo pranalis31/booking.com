@@ -1,23 +1,28 @@
 <template>
   <b-row>
     <b-col md="9" class="mt-2 text-left">
-      <span class="text-light hotel bg-secondary small mr-2">Hotel </span>
+      <b-badge class="text-light hotelsmall ">Hotel</b-badge>
       <span class="vincci-heading mr-1"> Vincci Centrium</span>
       <span class="star">
         <font-awesome-icon class="text-warning " :icon="['fas', 'star']" />
         <font-awesome-icon class="text-warning" :icon="['fas', 'star']" />
         <font-awesome-icon class="text-warning " :icon="['fas', 'star']" />
-        <font-awesome-icon class="text-warning  mr-4" :icon="['fas', 'star']" />
+        <font-awesome-icon class="text-warning  mr-2" :icon="['fas', 'star']" />
       </span>
-      <span class="bg-warning p-1 mt-0">
+      <span class="bg-warning pad-icon-size mt-0 mr-3">
         <font-awesome-icon
-          class="text-light"
+          class="text-light hand-pt-size"
           :icon="['fas', 'hand-point-right']"
         />
       </span>
+      <span class=" person-icon  mt-0">
+        <font-awesome-icon class="text-dark " :icon="['fas', 'female']" />
+        <font-awesome-icon class="text-dark " :icon="['fas', 'female']" />
+      </span>
+      <span class="small color-person-bg">Great for two travellers</span>
       <div class="small">
         <font-awesome-icon
-          class="text-primary mr-2"
+          class="text-primary  mr-2"
           :icon="['fas', 'map-marker-alt']"
         />Cenderos 4 Centro,24810 Madrid,Spain-
         <span class="small text-primary font-weight-bold"
@@ -54,11 +59,12 @@
 </template>
 
 <style lang="scss">
+@import "../assets/scss/booking/booking.scss";
 .hotel {
   padding: 3px 7px;
 }
 .vincci-heading {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: bold;
 }
 .star {
@@ -69,5 +75,20 @@
 }
 .size {
   font-size: 20px;
+}
+.hand-pt-size {
+  font-size: 10px;
+}
+.pad-icon-size {
+  padding: 1px 5px;
+}
+.person-icon {
+  padding: 0.30rem;
+  border: 1px solid dodgerblue;
+  border-radius: 50%;
+}
+.color-person-bg {
+  background-color: $navtext;
+  padding: 0.40rem;
 }
 </style>

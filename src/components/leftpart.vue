@@ -4,7 +4,7 @@
       <span class="small italics font-weight-bold text-dark">
         <font-awesome-icon
           class="text-primary mr-1 mt-3"
-          :icon="['fas', 'check-circle']"
+          :icon="['fas', 'eye']"
         />1,375 peoples are currently looking for a place in madrid</span
       >
     </div>
