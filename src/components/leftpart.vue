@@ -1,6 +1,6 @@
 <template>
   <b-row>
-    <div class="reserve1 pt-2 px-1">
+    <div class="reserve-place px-1">
       <span class="small italics font-weight-bold text-dark">
         <font-awesome-icon
           class="text-primary mr-1 mt-3"
@@ -21,11 +21,11 @@
       <div class="map-position">
         <span class="px-2 "
           ><font-awesome-icon
-            class="text-primary mr-1 mt-1"
+            class="text-primary size-icon mr-1 mt-1"
             :icon="['fas', 'map-marker-alt']"
         /></span>
         <div class="reserve border-inset">
-          <button class="btn-reserve font-weight-bold small shadow-inset">
+          <button class="btn-reserve mt-0 font-weight-bold small shadow-inset">
             Reserve
           </button>
         </div>
@@ -73,7 +73,11 @@
 
 <style lang="scss" scoped>
 @import "../assets/scss/booking/booking.scss";
-
+.reserve-place {
+  width: 286px;
+  height: 66px;
+  background-color: $navtext;
+}
 .reserve1 {
   width: 286px;
   height: 90px;
@@ -89,5 +93,8 @@
 }
 .margin-set {
   margin-top: -80px;
+}
+.size-icon {
+  font-size: 25px;
 }
 </style>

@@ -8,7 +8,7 @@
       <b-row>
         <b-col md="3">
           <sidepartreserve></sidepartreserve>
-          <formfilter class="mt-4"></formfilter>
+          <formfilter class="mt-1"></formfilter>
           <leftpart></leftpart>
           <testimonial class="mb-4"></testimonial>
         </b-col>

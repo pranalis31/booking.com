@@ -13,8 +13,8 @@
           :state="state"
         >
           <b-form-input
-            id="input-1"
-            class="small mt-0"
+            id="input-1 mb-1"
+            class="small input-height mt-"
             v-model="name"
             :state="state"
             placeholder="Madrid"
@@ -33,6 +33,7 @@
         >
         </b-form-group>
         <datepicker
+          class="input-height p-0 mb-1"
           placeholder="19-April-2019"
           v-model="vmodelexample"
         ></datepicker>
@@ -48,12 +49,13 @@
         >
         </b-form-group>
         <datepicker
+          class="input-height mb-1"
           placeholder="19-April-2019"
           v-model="vmodelexample"
         ></datepicker>
 
         <label class="small">2 night-day</label>
-        <b-form-select v-model="selected" class="mb-2 small">
+        <b-form-select v-model="selected" class="input-height  mb-2 small">
           <option :value="null">2 Adults</option>
           <option value="a">Option A</option>
           <option value="b" disabled>Option B (disabled)</option>
@@ -66,7 +68,7 @@
         </b-form-select>
         <b-row>
           <b-col md="6">
-            <b-form-select v-model="selected" class="mb-1 ">
+            <b-form-select v-model="selected" class="input-height  mb-1 ">
               <option :value="null">No child</option>
               <option value="a">Option A</option>
               <option value="b" disabled>Option B (disabled)</option>
@@ -79,7 +81,7 @@
             </b-form-select>
           </b-col>
           <b-col md="6">
-            <b-form-select v-model="selected" class="mb-1 ">
+            <b-form-select v-model="selected" class=" input-height  mb-1 ">
               <option class="option-font" :value="null">1 room</option>
               <option value="a">Option A</option>
               <option value="b" disabled>Option B (disabled)</option>
@@ -145,16 +147,28 @@ export default {
   background-color: $bg-form;
 }
 .search {
-  font-size: 24px;
+  font-size: 20px;
 }
 .bt-bg {
   background-color: $btn-blue;
   font-size: 19px;
+}
+.input-height {
+  height: 28px !important;
+  font-size: 12px !important;
 }
 .vdp-datepicker * {
   box-sizing: border-box;
   width: 100%;
   padding: 5px 4px;
 }
-
+.vdp-datepicker * {
+  padding: 3px 4px;
+}
+.custom-select {
+  padding: 0 0 0 6px !important;
+}
+label {
+  margin-bottom: 0 !important;
+}
 </style>

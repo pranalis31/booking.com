@@ -1,14 +1,14 @@
 <template>
   <div>
     <b-tabs class="small tab-bg font-weight-bold">
-      <b-tab no-body title="info $ prrice"> </b-tab>
+      <b-tab no-body title="info $ prrice " class="mx-5"> </b-tab>
 
-      <b-tab no-body title="facilities"> </b-tab>
+      <b-tab no-body title="facilities" class="px-3"> </b-tab>
 
-      <b-tab no-body title="Home rules"> </b-tab>
+      <b-tab no-body title="House rules" class="px-3"> </b-tab>
 
-      <b-tab title="The first print"> </b-tab>
-      <b-tab title="guest reviews"> </b-tab>
+      <b-tab title="The first print" class="px-3"> </b-tab>
+      <b-tab title="Guest reviews (2,462)" class="px-3"> </b-tab>
     </b-tabs>
   </div>
 </template>

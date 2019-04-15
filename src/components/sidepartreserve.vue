@@ -1,12 +1,12 @@
 <template>
   <b-row>
     <div class="reserve pb-4 mb-2">
-      <button class="btn-reserve">Reserve</button>
+      <button class="btn-reserve font-weight-bold small">Reserve</button>
     </div>
-    <div class="reserve1 pt-2">
+    <div class="reserve1">
       <span class="small italics font-weight-bold text-dark">
         <font-awesome-icon
-          class="text-primary mr-3 mt-3"
+          class="text-primary mr-1 mt-3"
           :icon="['fas', 'check-circle']"
         />We price match</span
       >
@@ -19,18 +19,18 @@
 
 .reserve {
   width: 286px;
-  height: 90px;
+  height: 58px;
   background-color: $navtext;
 }
 .reserve1 {
   width: 286px;
-  height: 50px;
+  height: 48px;
   background-color: $navtext;
 }
 .btn-reserve {
   background-color: #007cc1;
   padding: 6px 79px;
-  margin: 28px 15px;
+  margin: 12px 15px;
   border: none;
   color: #fff;
 }

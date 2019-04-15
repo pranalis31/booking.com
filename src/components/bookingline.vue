@@ -1,5 +1,5 @@
 <template>
-  <div class="text text-left  mt-3 top-gude ml-3 font-weight-bold">
+  <div class="text text-left small mt-3 top-gude ml-3 font-weight-bold">
     <font-awesome-icon class="text mr-1" :icon="['fas', 'check-circle']" /> One
     of our Top guide in Madrid
   </div>
@@ -7,6 +7,6 @@
 
 <style lang="scss">
 .top-guide {
-  color: #ba5d1c;
+  color: #bb5d1d;
 }
 </style>

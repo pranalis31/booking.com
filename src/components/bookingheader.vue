@@ -2,32 +2,38 @@
   <div class="head-top">
     <b-container>
       <b-row>
-        <b-col md="7" v-for="image in images" v-bind:key="image.index">
+        <b-col md="6" v-for="image in images" v-bind:key="image.index">
           <div class="img-display mt-3 text-left">
             <figure>
-              <b-img :src="image.img" class="img-size" alt="img1" />
+              <b-img :src="image.img" class="logo-heading-size" alt="img1" />
             </figure>
           </div>
         </b-col>
-        <b-col md="5">
-          <div class="mt-3">
+        <b-col md="6">
+          <div class="mt-3 ">
             <font-awesome-icon
-              class="text-light mr-3"
+              class="text-light small mr-3"
               :icon="['fas', 'rupee-sign']"
             />
 
-            <b-img :src="imgicon" class="img-size mr-3" alt="img1" />
+            <b-img :src="imgicon" class="img-size ml-4 mr-3" alt="img1" />
 
             <b-button
               variant="outline-light"
               size="sm"
-              class="mr-3 btn text-light font-weight-bold"
+              class="mr-3 btn-font small text-light font-weight-bold"
               >List Your Property</b-button
             >
-            <b-button variant="light" size="sm" class="text-dark mr-3"
+            <b-button
+              variant="light"
+              size="sm"
+              class="text-dark font-weight-bold  btn-font mr-3"
               >Register</b-button
             >
-            <b-button variant="light" size="sm" class="text-dark mr-3"
+            <b-button
+              variant="light"
+              size="sm"
+              class="text-dark font-weight-bold  btn-font mr-3"
               >Sign in</b-button
             >
           </div>
@@ -76,8 +82,14 @@ export default {
   background-color: $headtop;
   height: 110px;
 }
-.img-size {
+.logo-heading-size {
   height: 25px;
+}
+.btn-font {
+  font-size: 10px !important;
+}
+.img-size {
+  height: 15px;
 }
 .btn:hover {
   color: #212529;
