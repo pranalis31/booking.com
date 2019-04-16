@@ -3,14 +3,14 @@
     <div class="footer-top">
       <div class="text-center p-5">
         <div class="text-light top-part-footer">Save Time , Save Money</div>
-        <div class="text-light small">
+        <div class="text-light small margin-spacing">
           Sign up and we will send the best deals to you
         </div>
         <b-row>
           <b-col md="4" class=" mt-2 input-margin">
             <b-form-input
               v-model="text"
-              placeholder="Enter your name"
+              placeholder="Your email"
             ></b-form-input>
             <!-- <b-form-checkbox class="small check-size text-left text-light mt-2"
                  id="checkbox-2"
@@ -37,14 +37,14 @@
             </div>
           </b-col>
           <b-col md="1">
-            <button class="btn-reserve">Reserve</button>
+            <button class="subscribe-btn">Subscribe</button>
           </b-col>
         </b-row>
       </div>
     </div>
     <div class="footer-middle">
       <div class="text-center">
-        <b-button variant="outline-light" size="sm" class="mt-4 text-light "
+        <b-button variant="outline-light" size="sm" class=" mt-4 text-light "
           >List Your property</b-button
         >
       </div>
@@ -112,7 +112,7 @@
                 <li><a href="#">District</a></li>
                 <li><a href="#">Airport</a></li>
                 <li><a href="#">Hotels</a></li>
-                <li><a href="#">places of interest</a></li>
+                <li><a href="#">Places of interest</a></li>
               </ul>
             </div>
           </b-col>
@@ -125,17 +125,24 @@
                 <li><a href="#">Villas</a></li>
                 <li><a href="#">Hostels</a></li>
                 <li><a href="#">Beds</a></li>
-                <li><a href="#">Guest house</a></li>
+                <li><a href="#">Guest houses</a></li>
               </ul>
             </div>
           </b-col>
-          <b-col md="2">
+          <b-col md="3">
             <div class="column text-left small">
               <ul>
                 <li><a href="#">Unique place to stay</a></li>
-                <li><a href="#">Reviwes</a></li>
+                <li><a href="#">Reviews</a></li>
                 <li><a href="#">Unpacked Travel articles</a></li>
-                <li><a href="#">Travel Communities</a></li>
+                <li>
+                  <a href="#"
+                    >Travel Communities
+                    <b-badge class="text-light bg-success hotelsmall "
+                      >new</b-badge
+                    ></a
+                  >
+                </li>
               </ul>
             </div>
           </b-col>
@@ -145,7 +152,7 @@
                 <li><a href="#">Car hire</a></li>
                 <li><a href="#">Flight Finder</a></li>
                 <li><a href="#">Restaurant resevation</a></li>
-                <li><a href="#">Booking.com for travel Agent</a></li>
+                <li><a href="#">Booking.com for Travel Agent</a></li>
               </ul>
             </div>
           </b-col>
@@ -156,13 +163,13 @@
                 <li><a href="#">Give website feedback</a></li>
                 <li><a href="#">Customer Service help</a></li>
                 <li><a href="#">Partners help</a></li>
-                <li><a href="#">Career</a></li>
+                <li><a href="#">Careers</a></li>
                 <li><a href="#">Press Center</a></li>
                 <li><a href="#">Investigator relation</a></li>
                 <li><a href="#">Investigator relation</a></li>
-                <li><a href="#">Term and Condition</a></li>
-                <li><a href="#">Privacy and Cookie Staement</a></li>
-                <li><a href="#">Corporate Statement</a></li>
+                <li><a href="#">Term and Conditions</a></li>
+                <li><a href="#">Privacy and Cookie Statement</a></li>
+                <li><a href="#">Corporate contact</a></li>
               </ul>
             </div>
           </b-col>
@@ -171,7 +178,7 @@
               <span class="small text-secondary"
                 >Booking.com B.V is based in Amsterdam in the netherlands and is
                 internationally supported by
-                <span class="small text-primary">
+                <span class="small font-weight-bold text-primary">
                   198 offices in 70 countries</span
                 ></span
               >
@@ -266,7 +273,24 @@ export default {
 
 <style lang="scss">
 @import "../assets/scss/booking/booking.scss";
-
+.margin-spacing {
+  margin-bottom: 0.7rem;
+  margin-top: 0;
+}
+.column {
+  ul {
+    li {
+      margin: 3px 0;
+    }
+  }
+}
+.btn-sm,
+.btn-group-sm > .btn {
+  padding: 0.25rem 0.5rem;
+  font-size: 11px !important;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+}
 .footer-top {
   width: 100%;
   height: 230px;
@@ -292,13 +316,14 @@ export default {
 .top-part-footer {
   font-size: 20px;
 }
-.btn-reserve {
+.subscribe-btn {
   background-color: #007cc1;
-  padding: 7px 79px;
-  margin-top: 9px;
-  margin-left: -17px;
+  padding: 8px 41px;
+  margin-top: 6px;
+  margin-left: -24px;
   border: none;
   color: #fff;
+  border-radius: 3px;
 }
 .column ul li {
   list-style-type: none;

@@ -140,6 +140,7 @@ export default {
   width: 286px;
   height: auto;
   background-color: $bg-form;
+  border-radius: 3px;
 }
 .search {
   font-size: 20px;

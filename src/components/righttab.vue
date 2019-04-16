@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-tabs class="small tab-bg font-weight-bold">
-      <b-tab no-body title="Info $ prrice "> </b-tab>
+      <b-tab no-body title="Info 	&amp; prrice "> </b-tab>
 
       <b-tab no-body title="Facilities"> </b-tab>
 

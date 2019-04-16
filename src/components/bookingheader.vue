@@ -110,6 +110,7 @@ export default {
 }
 .active-nav {
   background-color: $head-top-hover;
+  border-radius: 2px;
 }
 .btn-outline-light:hover {
   background-color: unset !important;

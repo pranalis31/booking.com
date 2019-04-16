@@ -70,9 +70,9 @@
             </div>
           </b-col>
           <b-col md="10">
-            <div class="text-left mt-2  small bg-success">
-              <span class=" text-light font-weight-bold"
-                >Free Wifi<br />Guest consistency rate the<br />wifi is
+            <div class="text-left mt-2 px-2 py-1 small bg-wifi">
+              <span class=" text-light  font-weight-bold"
+                >Free Wifi<br />Guests consistency rate the<br />wifi is
                 Excellent</span
               >
             </div>
@@ -94,7 +94,7 @@
         </b-row>
         <b-row>
           <div class="reserve ml-4 mt-2">
-            <button class="btn-reserve font-weight-bold small shadow-inset">
+            <button class="btn-reserve font-weight-bold small shadow">
               Reserve
             </button>
           </div>
@@ -125,16 +125,16 @@ export default {
       // sideimage:img2,
       images: [
         {
-          title: "Friendly staff",
-          subtitle: "65 related review "
+          title: "friendly staff",
+          subtitle: "63 related review "
         },
         {
-          title: "Excellent location",
-          subtitle: "65 related review"
+          title: "excellent location",
+          subtitle: "35 related review"
         },
         {
           title: "clean room",
-          subtitle: "65 related review"
+          subtitle: "32 related review"
         },
         {
           title: "boutique style"
@@ -167,12 +167,16 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/scss/booking/booking.scss";
-
+.bg-wifi {
+  background-color: #317408 !important;
+  font-size: 12px;
+}
 .btn-reserve {
   background-color: #007cc1;
-  padding: 6px 99px;
+  padding: 6px 91px;
   border: 1px solid #fff outset;
   color: #fff;
+  margin: 0 auto;
 }
 .viniccihotels {
   width: 284px;

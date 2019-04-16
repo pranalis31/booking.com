@@ -1,7 +1,7 @@
 <template>
   <b-row>
     <div class="reserve pb-4 mb-2">
-      <button class="btn-reserve font-weight-bold small">Reserve</button>
+      <button class="btn-reserve font-weight-bold small shadow">Reserve</button>
     </div>
     <div class="reserve1">
       <span class="small italics font-weight-bold text-dark">
@@ -32,6 +32,7 @@
   padding: 6px 79px;
   margin: 12px 15px;
   border: none;
+  border-radius: 3px;
   color: #fff;
 }
 </style>

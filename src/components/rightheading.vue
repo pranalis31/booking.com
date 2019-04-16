@@ -15,12 +15,16 @@
           :icon="['fas', 'hand-point-right']"
         />
       </span>
-      <span class=" person-icon  mt-0">
-        <font-awesome-icon class="text-dark " :icon="['fas', 'female']" />
-        <font-awesome-icon class="text-dark " :icon="['fas', 'female']" />
-      </span>
-      <span class="small color-person-bg">Great for two travellers</span>
-      <div class="small">
+      <span class="ml-2">
+        <span class="small color-person-bg">
+          <span class=" person-icon  mt-0">
+            <font-awesome-icon class="text-dark " :icon="['fas', 'female']" />
+            <font-awesome-icon class="text-dark " :icon="['fas', 'female']" />
+          </span>
+          Great for two travellers</span
+        ></span
+      >
+      <div class="small mt-1">
         <font-awesome-icon
           class="text-primary  mr-2"
           :icon="['fas', 'map-marker-alt']"
@@ -86,15 +90,21 @@
 }
 .person-icon {
   padding: 0.3rem;
+  width: 50px;
+  height: 50px;
   border: 1px solid dodgerblue;
   border-radius: 50%;
   font-size: 11px;
+  margin-left: -17px;
+  /* padding-left: 12px; */
+  z-index: 1;
+  background-color: #fff;
 }
+
 .color-person-bg {
   background-color: $navtext;
   padding: 0.4rem;
   border-radius: 2px;
-  margin-left: -3px;
 }
 .match-float {
   float: right;

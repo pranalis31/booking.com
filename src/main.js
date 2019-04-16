@@ -2,7 +2,13 @@ import Vue from "vue";
 import App from "./App.vue";
 import router from "./router";
 import store from "./store";
-import "./registerServiceWorker";
+
+import VueAwesomeSwiper from "vue-awesome-swiper";
+
+// require styles
+import "swiper/dist/css/swiper.css";
+
+Vue.use(VueAwesomeSwiper);
 
 // bootstrap install
 import BootstrapVue from "bootstrap-vue";
@@ -36,7 +42,11 @@ import {
   faLaugh,
   faCalendar,
   faFemale,
-  faEye
+  faEye,
+  faBath,
+  faTv,
+  faAirFreshener,
+  faCheck
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
@@ -76,7 +86,11 @@ library.add(
   faQuestionCircle,
   faCalendar,
   faFemale,
-  faEye
+  faEye,
+  faBath,
+  faTv,
+  faCheck,
+  faAirFreshener
 ); //fas
 
 library.add(faLinkedinIn, faFacebookSquare, faTwitter); //fab

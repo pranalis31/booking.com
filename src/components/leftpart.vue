@@ -33,19 +33,20 @@
       </div>
     </div>
 
-    <div class="reserve1 pt-2 margin-set px-2 text-left">
+    <div class="reserve-air pt-2 margin-set px-2 text-left">
       <span class="font-weight-bold text-dark ">
         How to get Vincci Centrium from Adlofo Suaraz Madrid Banaras Airport
       </span>
     </div>
     <div class="border border-bottom airport-box text-left">
-      <div class="py-2">
-        <span class="pb-2 border-bottom px-2 small"
+      <div class="py-1 border-bottom">
+        <span class="pb-2  px-2 small"
           ><font-awesome-icon
             class="text-dark mr-1 mt-1"
             :icon="['fas', 'car']"
-          />Taxi<span class="ml-5 pl-5 text-dark  small">20 minutes</span></span
+          />Taxi</span
         >
+        <span class="mx-5 text-dark bg-20 small">20 minutes</span>
       </div>
       <div class="py-2">
         <span class="px-2 small"
@@ -71,7 +72,7 @@
       >
     </div>
 
-    <div class="font-weight-bold text-dark my-2">
+    <div class="small font-weight-bold text-dark my-2">
       What guest loved the most:
     </div>
   </b-row>
@@ -85,14 +86,22 @@
   background-color: $navtext;
   text-align: left;
 }
+.reserve-air {
+  width: 286px;
+  height: 70px;
+  line-height: 1.2;
+  background-color: $navtext;
+}
 .reserve1 {
   width: 286px;
   height: 90px;
   background-color: $navtext;
+  border-radius: 3px;
 }
 .airport-box {
   width: 286px;
   height: auto;
+  margin-top: -10px;
 }
 .map-position {
   position: relative;
@@ -107,6 +116,10 @@
 .btn-reserve {
   border: 3px solid #fff;
   padding: 5px 50px;
-
+}
+.bg-20 {
+  float: right;
+  background-color: $navtext;
+  margin-top: 3px;
 }
 </style>

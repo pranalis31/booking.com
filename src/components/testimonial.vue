@@ -1,7 +1,7 @@
 <template>
   <b-row>
     <div
-      class=" text-left small"
+      class="mt-3 text-left small"
       v-for="image in images"
       v-bind:key="image.index"
     >
@@ -37,7 +37,7 @@ export default {
       images: [
         {
           heading:
-            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
+            "Excellent location.Staff were helpful Room was good and very silent",
           img: img1,
           title: "Prazian",
           imgicon: img2,
@@ -45,7 +45,7 @@ export default {
         },
         {
           heading:
-            "Excellent location Staff were helpful Room was good and very peaceful as well as site seeing looks pretty",
+            "Breakfast was good but could have replenished a little quicker ie coffeee machine ran out of water every morning.Location was great just of Sol Plaza area.",
           img: img1,
           title: "Lyan",
           imgicon: img2,

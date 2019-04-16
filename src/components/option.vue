@@ -5,7 +5,7 @@
       <span
         ><font-awesome-icon
           class="text-secondary mr-1 mt-2"
-          :icon="['fas', 'check-circle']"
+          :icon="['fas', 'air-freshener']"
         />Air conditioning</span
       >
     </div>
@@ -13,7 +13,7 @@
       <span
         ><font-awesome-icon
           class="text-secondary mr-1 mt-2"
-          :icon="['fas', 'check-circle']"
+          :icon="['fas', 'bath']"
         />Private bathroom</span
       >
     </div>
@@ -21,8 +21,8 @@
       <span>
         <font-awesome-icon
           class="text-secondary mr-1 mt-2"
-          :icon="['fas', 'check-circle']"
-        />Flat Screen Tv</span
+          :icon="['fas', 'tv']"
+        />Flat screen Tv</span
       >
     </div>
     <div class="text-secondary small">
@@ -30,20 +30,28 @@
         ><font-awesome-icon
           class="text-secondary mr-1 mt-2"
           :icon="['fas', 'check-circle']"
-        />Sound sproofing</span
+        />Soundproofing</span
       >
       <span class="ml-2"
         ><font-awesome-icon
           class="text-secondary mr-1 mt-2"
-          :icon="['fas', 'check-circle']"
-        />Bars</span
+          :icon="['fas', 'check']"
+        />Bider</span
       >
     </div>
     <div class="text-secondary small">
       <span
         ><font-awesome-icon
           class="text-secondary mr-1 mt-2"
-          :icon="['fas', 'check-circle']"
+          :icon="['fas', 'check']"
+        />Hypoallergenic</span
+      >
+    </div>
+    <div class="text-secondary small">
+      <span
+        ><font-awesome-icon
+          class="text-secondary mr-1 mt-2"
+          :icon="['fas', 'check']"
         />15% off all car rentals</span
       >
     </div>
