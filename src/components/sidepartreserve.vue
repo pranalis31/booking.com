@@ -8,7 +8,7 @@
         <font-awesome-icon
           class="text-primary mr-1 mt-3"
           :icon="['fas', 'check-circle']"
-        />We price match</span
+        /><i>We price match</i></span
       >
     </div>
   </b-row>

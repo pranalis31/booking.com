@@ -24,35 +24,37 @@
         <font-awesome-icon
           class="text-primary  mr-2"
           :icon="['fas', 'map-marker-alt']"
-        />Cenderos 4 Centro,24810 Madrid,Spain-
+        />Cedaceros, 4 , Centro,24814 Madrid,Spain-
         <span class="small text-primary font-weight-bold"
           ><a href="#">Excellent Location - Show Map </a></span
         >
       </div>
-      <div class="text small font-weight-bold">
-        <font-awesome-icon class="text mr-2" :icon="['fas', 'car']" /> Booking
-        accomodation in Madrid and get 15% offf all car rentals
+      <div class="text small font-weight-bold mb-2">
+        <font-awesome-icon class="text mr-2 mt-2" :icon="['fas', 'car']" /> Book
+        accomodation in Madrid and get 15% off all car rentals
       </div>
     </b-col>
     <b-col md="3">
-      <span>
-        <font-awesome-icon
-          class="text-primary size  mt-2"
-          :icon="['far', 'heart']"
-      /></span>
-      <span>
-        <font-awesome-icon
-          class="text-primary size ml-2 mt-2"
-          :icon="['fas', 'share-alt']"
-      /></span>
-      <button class="small bt-bg text-light mt-1 px-2 ml-2 font-weight-bold">
-        Reserve
-      </button>
-      <div class="small italice font-weight-bold">
-        <font-awesome-icon
-          class="text-primary  mr-1 mt-3"
-          :icon="['fas', 'check-circle']"
-        />We Price Match
+      <div class="match-float">
+        <span>
+          <font-awesome-icon
+            class="text-primary size  mt-2"
+            :icon="['far', 'heart']"
+        /></span>
+        <span>
+          <font-awesome-icon
+            class="text-primary size ml-2 mt-2"
+            :icon="['fas', 'share-alt']"
+        /></span>
+        <button class="small bt-bg text-light mt-1 px-2 ml-2 font-weight-bold">
+          Reserve
+        </button>
+        <div class="small italice font-weight-bold">
+          <font-awesome-icon
+            class="text-primary  mr-1  mt-2"
+            :icon="['fas', 'check-circle']"
+          /><i>We Price Match</i>
+        </div>
       </div>
     </b-col>
   </b-row>
@@ -91,5 +93,10 @@
 .color-person-bg {
   background-color: $navtext;
   padding: 0.4rem;
+  border-radius: 2px;
+  margin-left: -3px;
+}
+.match-float {
+  float: right;
 }
 </style>

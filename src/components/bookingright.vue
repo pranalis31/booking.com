@@ -177,7 +177,7 @@ export default {
 .viniccihotels {
   width: 284px;
   height: 90px;
-  border: 1px ridge $navtext;
+  border: 1px solid $navtext;
 }
 
 .btn-viniccihotels {

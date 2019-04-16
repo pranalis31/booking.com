@@ -27,7 +27,7 @@
         /></span>
         <div class="reserve border-inset">
           <button class="btn-reserve mt-0 font-weight-bold small shadow-inset">
-            Reserve
+            Show on map
           </button>
         </div>
       </div>
@@ -103,5 +103,10 @@
 }
 .size-icon {
   font-size: 25px;
+}
+.btn-reserve {
+  border: 3px solid #fff;
+  padding: 5px 50px;
+
 }
 </style>

@@ -1,13 +1,13 @@
 <template>
   <div>
     <b-tabs class="small tab-bg font-weight-bold">
-      <b-tab no-body title="info $ prrice "> </b-tab>
+      <b-tab no-body title="Info $ prrice "> </b-tab>
 
-      <b-tab no-body title="facilities"> </b-tab>
+      <b-tab no-body title="Facilities"> </b-tab>
 
       <b-tab no-body title="House rules"> </b-tab>
 
-      <b-tab title="The first print"> </b-tab>
+      <b-tab title="The fine print"> </b-tab>
       <b-tab title="Guest reviews (2,462)"> </b-tab>
     </b-tabs>
   </div>
@@ -33,6 +33,14 @@
 }
 .nav-tabs .nav-item {
   margin-bottom: -1px;
-  padding: 0 24px;
+  padding: 0 22px;
+  border-right: 1px solid $navtext;
+}
+.nav-tabs {
+  border-bottom: 1px solid #27527d !important;
+}
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+  border-color: transparent !important;
 }
 </style>

@@ -6,15 +6,15 @@
         <b-form-group
           class="small mb-0"
           id="fieldset-1"
-          label="Destinatoin/property name"
+          label="Destination / property name"
           label-for="input-1"
           :invalid-feedback="invalidFeedback"
           :valid-feedback="validFeedback"
           :state="state"
         >
           <b-form-input
-            id="input-1 mb-1"
-            class="small input-height mt-"
+            id="input-1 mb-0"
+            class="small input-height "
             v-model="name"
             :state="state"
             placeholder="Madrid"
@@ -23,7 +23,7 @@
         </b-form-group>
 
         <b-form-group
-          class="small mb-0"
+          class="small mb-0 margin-spacing"
           id="input-sml"
           label="Check-in date"
           label-for="input-horizontal"
@@ -39,7 +39,7 @@
         ></datepicker>
 
         <b-form-group
-          class="small mb-0"
+          class="small  mb-0 margin-spacing"
           id="input-sml"
           label="Check-out date"
           label-for="input-horizontal"
@@ -54,7 +54,7 @@
           v-model="vmodelexample"
         ></datepicker>
 
-        <label class="small">2 night-day</label>
+        <label class="small margin-spacing">2 night-day</label>
         <b-form-select v-model="selected11" class="input-height  mb-2 small">
           <option :value="null">2 Adults</option>
           <option value="a">Option A</option>
@@ -165,5 +165,8 @@ export default {
 }
 label {
   margin-bottom: 0 !important;
+}
+.margin-spacing {
+  margin-top: 12px;
 }
 </style>

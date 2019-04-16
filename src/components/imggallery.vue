@@ -12,13 +12,6 @@
   </b-row>
 </template>
 
-<style lang="scss">
-.small-img {
-  width: 50px;
-  height: 50px;
-}
-</style>
-
 <script>
 import img1 from "../assets/images/room.jpg";
 import img2 from "../assets/images/room-sm.jpg";
@@ -108,13 +101,13 @@ export default {
           img: img2
         },
         {
-          img: img2
+          img: img1
         },
         {
           img: img2
         },
         {
-          img: img2
+          img: img1
         },
         {
           img: img2
@@ -132,13 +125,25 @@ export default {
           img: img1
         },
         {
+          img: img2
+        },
+        {
           img: img1
         },
         {
           img: img2
         },
         {
+          img: img1
+        },
+        {
+          img: img1
+        },
+        {
           img: img2
+        },
+        {
+          img: img1
         },
         {
           img: img2
@@ -157,5 +162,9 @@ export default {
 }
 .size-img {
   width: 650px;
+}
+.small-img {
+  width: 43px;
+  height: 42px;
 }
 </style>
