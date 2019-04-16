@@ -37,7 +37,7 @@
   border-right: 1px solid $navtext;
 }
 .nav-tabs {
-  border-bottom: 1px solid #27527d !important;
+  border-bottom: 1px solid $dark-blue !important;
 }
 .nav-tabs .nav-link:hover,
 .nav-tabs .nav-link:focus {

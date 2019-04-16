@@ -276,6 +276,6 @@ export default {
 }
 .checkbox-number {
   font-size: 11px;
-  color: grey;
+  color: #ccc;
 }
 </style>

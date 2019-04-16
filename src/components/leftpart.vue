@@ -86,6 +86,12 @@
   background-color: $navtext;
   text-align: left;
 }
+.btn-reserve {
+  border: 3px solid $white-color;
+  padding: 5px 50px;
+  background-color: $btn-blue;
+  color: $white-color;
+}
 .reserve-air {
   width: 286px;
   height: 70px;
@@ -114,7 +120,7 @@
   font-size: 25px;
 }
 .btn-reserve {
-  border: 3px solid #fff;
+  border: 3px solid $white-color;
   padding: 5px 50px;
 }
 .bg-20 {

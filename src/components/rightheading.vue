@@ -77,7 +77,7 @@
   font-size: 10px;
 }
 .text {
-  color: #fa832a;
+  color: $orange;
 }
 .size {
   font-size: 20px;
@@ -92,13 +92,13 @@
   padding: 0.3rem;
   width: 50px;
   height: 50px;
-  border: 1px solid dodgerblue;
+  border: 1px solid $doger-blue;
   border-radius: 50%;
   font-size: 11px;
   margin-left: -17px;
   /* padding-left: 12px; */
   z-index: 1;
-  background-color: #fff;
+  background-color: $white-color;
 }
 
 .color-person-bg {

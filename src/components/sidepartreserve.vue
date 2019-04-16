@@ -28,11 +28,11 @@
   background-color: $navtext;
 }
 .btn-reserve {
-  background-color: #007cc1;
+  background-color: $btn-blue;
   padding: 6px 79px;
   margin: 12px 15px;
   border: none;
   border-radius: 3px;
-  color: #fff;
+  color: $white-color;
 }
 </style>

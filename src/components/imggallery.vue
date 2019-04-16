@@ -200,9 +200,9 @@ export default {
   width: 15px !important;
   height: 15px !important;
   background-size: 12px 12px !important;
-  background-color: #fff;
+  background-color: $white-color;
   padding: 12px;
   border-radius: 50%;
-  border:1px solid #ccc;
+  border: 1px solid $grey-color;
 }
 </style>

@@ -317,12 +317,12 @@ export default {
   font-size: 20px;
 }
 .subscribe-btn {
-  background-color: #007cc1;
+  background-color: $btn-blue;
   padding: 8px 41px;
   margin-top: 6px;
   margin-left: -24px;
   border: none;
-  color: #fff;
+  color: $white-color;
   border-radius: 3px;
 }
 .column ul li {

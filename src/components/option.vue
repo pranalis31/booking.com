@@ -59,10 +59,11 @@
 </template>
 
 <style lang="scss">
+@import "../assets/scss/booking/booking.scss";
 .box-option {
   width: 287px;
   height: auto;
-  border: 1px solid #ccc;
+  border: 1px solid $grey-color;
 }
 .option-heading {
   font-size: 20px;

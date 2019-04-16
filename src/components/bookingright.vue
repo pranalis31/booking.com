@@ -168,14 +168,14 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/scss/booking/booking.scss";
 .bg-wifi {
-  background-color: #317408 !important;
+  background-color: $bg-text-green !important;
   font-size: 12px;
 }
 .btn-reserve {
-  background-color: #007cc1;
+  background-color: $btn-blue;
   padding: 6px 91px;
-  border: 1px solid #fff outset;
-  color: #fff;
+  border: 1px solid $white-color outset;
+  color: $white-color;
   margin: 0 auto;
 }
 .viniccihotels {
@@ -185,11 +185,11 @@ export default {
 }
 
 .btn-viniccihotels {
-  background-color: #000;
+  background-color: $black;
   padding: 16px 36px;
   margin: 17px 15px;
   border: none;
-  color: #fff;
+  color: $white-color;
 }
 .guest-love {
   background-color: $navtext;

@@ -92,21 +92,22 @@ export default {
   height: 15px;
 }
 .btn:hover {
-  color: #212529;
+  color: $color-black;
   background-color: transparent;
-  border-color: #f8f9fa;
+  border-color: $color-white;
   box-shadow: none;
 }
 .navbar-light {
   .navbar-nav {
     .nav-link {
-      color: #fff !important;
+      color: $white-color !important;
     }
   }
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
   background-color: $head-top-hover;
+  border-radius: 2px;
 }
 .active-nav {
   background-color: $head-top-hover;

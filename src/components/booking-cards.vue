@@ -368,7 +368,7 @@ export default {
   width: 200px;
   height: 200px;
 }
-//******************flex col 1 style
+
 .card-main-title {
   color: $btn-blue;
   font-weight: bold;
@@ -383,7 +383,7 @@ export default {
     font-size: 14px;
     background-color: $bg-form;
     margin-bottom: 2px;
-    color: white;
+    color: $white-color;
     padding: 2px;
   }
 }
@@ -407,7 +407,7 @@ export default {
   font-size: $para-font;
   .bg-demand {
     background-color: red;
-    color: white;
+    color: $white-color;
     padding: 2px;
     border-radius: 4px;
   }
@@ -420,7 +420,7 @@ export default {
   font-size: $para-font + 1;
   .yellobg {
     background-color: orange;
-    color: white;
+    color: $white-color;
     padding: 3px 7px;
     border-radius: 4px;
   }
